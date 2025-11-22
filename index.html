@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social OS</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Montserrat:wght@300;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-bg"></div>
+
+<div class="main-container">
+    <!-- HEADER / HERO -->
+    <header class="hero">
+        <div class="hero-top">
+            <span class="https://imgur.com/a/Wn9I1rY"><h1>Social OS</h1></span>
+
+            <button class="theme-toggle" type="button" aria-label="Alternar tema">
+                <i class="fa-solid fa-sun icon-sun"></i>
+                <i class="fa-solid fa-moon icon-moon"></i>
+                <span class="theme-label">Tema claro</span>
+            </button>
+        </div>
+
+        <div class="hero-layout">
+            <!-- Texto principal -->
+            <div class="hero-content">
+                <span class="badge">Base de prompts para Social Media & Tráfego</span>
+                <h1 class="main-title">Você digita a tarefa.</h1>
+                <h1 class="main-title">A IA entrega o resto.</h1>
+
+                <p class="subtitle">
+                    O <strong>Social OS</strong> é a sua central de prompts para IA:
+                    calendários, criativos, copies, anúncios e processos prontos para
+                    acelerar a rotina de social media e gestor de tráfego.
+                    <br>
+                    Busque por uma tarefa ou escolha uma categoria.
+                </p>
+
+                <!-- Barra de busca -->
+                <div class="search-box">
+                    <input
+                        type="text"
+                        placeholder="Ex.: roteiro de anúncio, calendário mensal, análise de métricas..."
+                        onkeyup="iniciarBusca()"
+                    >
+                    <button class="search-btn" onclick="iniciarBusca()">
+                        <span>Buscar</span>
+                        <span class="liquid-bubble"></span>
+                    </button>
+                </div>
+
+                <!-- Categorias -->
+                <section class="category-section">
+                    <h2 class="category-title">Navegue por categoria</h2>
+                    <ul id="category-list" class="category-list">
+                        <!-- preenchido via JS -->
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Visual OS / Siri style -->
+            <div class="hero-visual" aria-hidden="true">
+                <div class="siri-orb">
+                    <div class="siri-ring siri-ring-1"></div>
+                    <div class="siri-ring siri-ring-2"></div>
+                    <div class="siri-ring siri-ring-3"></div>
+                    <div class="siri-core"></div>
+                </div>
+                <p class="hero-visual-caption">
+                    Pensada para IA.  
+                    <span>Prompts em segundos, não em horas.</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- RESULTADOS -->
+    <main class="results-section hidden">
+        <h2 class="results-title">Resultados</h2>
+        <p class="results-subtitle">
+            Clique em <strong>“Copiar prompt”</strong> para colar direto na sua IA favorita.
+        </p>
+        <div class="results-container">
+            <!-- cards via JS -->
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="social-icons">
+                <a href="http://wa.me/5555981279074" target="_blank" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/_bravesm/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/edersonjesus/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.behance.net/bravesm" target="_blank" aria-label="Behance">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+                <a href="https://github.com/edersonjesus4" target="_blank" aria-label="Github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <p>© 2025 Social OS. Desenvolvido por <strong>Ederson Jesus</strong>.</p>
+        </div>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

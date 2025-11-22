@@ -1,0 +1,1934 @@
+[
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "A História de Origem (Storytelling)",
+    "descrição": "Narrativa que justifica por que o produto existe.",
+    "Promt": "Atue como Storyteller. Escreva um esboço da 'História de Origem' do criador de [PRODUTO]. Comece no 'Momento de Fundo do Poço', descreva a jornada de tentativa e erro, o momento da descoberta (Epifania) e a criação do método. O objetivo é gerar empatia e autoridade."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Acessibilidade Visual (Contraste)",
+    "descrição": "Garante que todos consigam ler o design.",
+    "Promt": "Atue como Especialista em Acessibilidade. Analise a paleta de cores [COR 1] e [COR 2] para uso em texto e fundo. Elas passam no teste de contraste WCAG? Se não, sugira ajustes de luminosidade (mais claro/mais escuro) para garantir legibilidade para pessoas com baixa visão."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Advertorial (Artigo de Vendas)",
+    "descrição": "Texto que parece notícia, mas vende.",
+    "Promt": "Atue como Redator de Taboola/Native. Escreva a estrutura de um Advertorial com a headline: 'Nova estratégia ajuda empresas de [NICHO] a [RESULTADO]'. O texto deve parecer uma reportagem investigativa, citar dados e especialistas, e sutilmente introduzir o produto [PRODUTO] como a solução recomendada no final."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Análise de Concorrentes",
+    "descrição": "Identifica pontos fortes e fracos da concorrência.",
+    "Promt": "Atue como Analista de Mercado. Crie uma tabela para analisar 3 concorrentes de [SUA MARCA]. Colunas: 1) Frequência de postagem, 2) Melhores formatos, 3) O que eles não fazem (lacunas de oportunidade), 4) Temas mais engajados."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Análise de Concorrência (Ads Library)",
+    "descrição": "Engenharia reversa dos anúncios dos rivais.",
+    "Promt": "Atue como Espião de Mercado. Liste 5 passos para analisar a Biblioteca de Anúncios (Ad Library) do concorrente [NOME OU SITE]. O que devo procurar? (Ex: Há quanto tempo o anúncio roda? Quais formatos usam? Para onde mandam o tráfego?)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Análise de Lacunas (Content Gap)",
+    "descrição": "Descobre o que os concorrentes falam e você não.",
+    "Promt": "Atue como Espião de SEO. Liste 5 passos para realizar uma análise de 'Content Gap' entre o meu site [MEU SITE] e o concorrente [CONCORRENTE] usando ferramentas gratuitas (Google, Ubersuggest). O que devo procurar para achar oportunidades de tráfego que estou perdendo?"
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Análise de Métricas (Assistente)",
+    "descrição": "Um prompt analítico para ajudar a interpretar dados de campanha e sugerir otimizações.",
+    "Promt": "Atue como um analista de dados de tráfego. Eu tenho uma campanha com as seguintes métricas: CTR de [INSERIR %], CPC de [INSERIR VALOR] e Taxa de Conversão da Página de [INSERIR %]. O CPM está [ALTO/BAIXO]. Com base nesses dados, qual é o provável gargalo da minha campanha (Anúncio, Público ou Página)? O que você sugere que eu faça para otimizar?"
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Análise de Métricas (Diagnóstico)",
+    "descrição": "Interpreta dados ruins e sugere correções.",
+    "Promt": "Atue como Analista de Performance. Minha campanha tem alto CTR (cliques), mas baixa conversão (vendas). Liste 5 possíveis causas para esse problema (Gargalo na Landing Page, Preço, Checkout, etc.) e sugira uma ação corretiva para cada uma."
+  },
+  {
+    "nome": "Análise de Perfil e Sugestões de Melhoria (Instagram)",
+    "categoria_ref": "Otimização & Auditoria",
+    "descrição": "Avalia bio, conteúdo, estética e posicionamento de um perfil e sugere melhorias práticas.",
+    "Promt": "Tenho um perfil no Instagram: [INSERIR @ OU DESCRIÇÃO].\nMeu nicho é [DESCREVER NICH0] e meu objetivo é [CRESCER, VENDER, GERAR AUTORIDADE, CONSEGUIR CLIENTES].\nDescreva como é hoje minha bio, tipos de posts, frequência e engajamento, da forma mais honesta possível com base no que eu relatar.\nQuero que você faça uma análise completa com: pontos fortes, pontos fracos e oportunidades de melhoria.\nSugira ajustes na bio (descrição, promessa, CTA e uso de emojis), nos destaques e no visual do feed.\nIndique 5 tipos de conteúdos que eu deveria focar nos próximos 30 dias para melhorar resultado.\nTraga também exemplos de títulos chamativos para posts dentro do meu nicho.\nFinalize com um mini plano de ação em passos claros para os próximos 7 dias."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Análise de UX (Usabilidade)",
+    "descrição": "Critica construtiva de interfaces.",
+    "Promt": "Atue como UX Researcher. Liste 5 erros comuns de design em sites de [NICHO] que atrapalham a conversão. (Ex: Contraste baixo entre texto e fundo, botões pequenos para mobile, excesso de animações). Sugira a correção padrão para cada um."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Anúncio 'Quebra de Padrão' (Imagem)",
+    "descrição": "Imagens estranhas ou curiosas que geram clique.",
+    "Promt": "Atue como Designer Criativo. Sugira 3 conceitos visuais 'bizarros' ou inusitados para vender [PRODUTO] que fariam a pessoa parar de rolar o feed por curiosidade. (Ex: Produto em um contexto errado, uso de cores neon, close-up extremo)."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Anúncio de Prova Social (Carrossel)",
+    "descrição": "Usa a voz de outros clientes para vender.",
+    "Promt": "Atue como Designer. Crie o conceito de um carrossel de 4 cards apenas com prints de WhatsApp/Direct de clientes elogiando [SERVIÇO]. Card 1: Capa 'Veja o que dizem...'. Cards 2-3: Prints com partes importantes grifadas. Card 4: CTA 'Seja o próximo'."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Anúncio para Captura de Leads (Isca Digital)",
+    "descrição": "Focado em baixar custo por lead (CPL).",
+    "Promt": "Atue como Lead Generator. Crie a copy e o conceito visual para promover um eBook/Webinar gratuito sobre [TEMA]. O foco é vender a 'gratuidade' e o valor do conteúdo. Headline: 'Baixe o Guia Definitivo...'. Copy: Foca na dor de não saber [TEMA]."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Artigo Comparativo (Review de Produto)",
+    "descrição": "Conteúdo fundo de funil para quem está decidindo.",
+    "Promt": "Atue como Reviewer de Produtos. Crie a estrutura para um post 'Batalha': [PRODUTO A] vs [PRODUTO B]. Critérios de comparação: Preço, Funcionalidades, Facilidade de uso e Suporte. Conclua definindo um vencedor para cada tipo de perfil de usuário."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Assuntos de E-mail (Open Rate)",
+    "descrição": "Linhas de assunto para garantir a abertura do e-mail.",
+    "Promt": "Atue como Copywriter. Crie 15 linhas de assunto (Subject Lines) para um e-mail de vendas de [PRODUTO]. Divida em categorias: 1) Curiosidade Bizarra, 2) Benefício Direto, 3) Escassez/Urgência, 4) Personalizado (nome do lead). Mantenha curto e impactante."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Ata de Reunião (Meeting Minutes)",
+    "descrição": "Registro formal do que foi decidido.",
+    "Promt": "Atue como Secretário Executivo. Crie um modelo de Ata de Reunião simples para enviar por e-mail após uma call com cliente. Campos: Data, Participantes, Pontos Discutidos, Decisões Tomadas e 'To-Do List' (Quem faz o quê e para quando)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Atualização de Conteúdo Antigo (Refresh)",
+    "descrição": "Renova posts velhos para recuperar rankings.",
+    "Promt": "Atue como Editor. Tenho um post de 2022 sobre [TEMA] que caiu posições. Liste 5 ações práticas para atualizá-lo para o ano atual. (Ex: Atualizar o ano no título, adicionar dados/estatísticas recentes, inserir um vídeo novo, revisar links quebrados)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Auditoria de Conteúdo (Pruning)",
+    "descrição": "Decide o que manter, atualizar ou apagar.",
+    "Promt": "Atue como Gestor de Blog. Crie um critério de 3 passos para decidir se devo Atualizar, Deletar ou Redirecionar um post antigo que não recebe tráfego há 6 meses. Considere: Sazonalidade, Qualidade do texto e Backlinks existentes."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Auditoria de Copy (Polimento)",
+    "descrição": "Melhora textos fracos ou genéricos.",
+    "Promt": "Atue como Editor Chefe. Pegue o seguinte parágrafo de vendas: [INSERIR TEXTO]. Reescreva-o para torná-lo mais 'Punchy' (impactante). Remova advérbios desnecessários, use voz ativa e verbos de poder. O objetivo é melhorar a legibilidade e a persuasão."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Auditoria de Engajamento por Plataforma",
+    "descrição": "Analisar e sugerir melhorias no tipo de conteúdo que gera mais interações específicas (salvamentos, compartilhamentos) em diferentes redes sociais.",
+    "Promt": "Atue como um Analista de Performance de Social Media. Analise as taxas de engajamento (curtidas, comentários, salvamentos e compartilhamentos) dos últimos 30 posts do perfil [URL do Perfil] em [Nome da Plataforma]. Identifique os 3 tipos de conteúdo mais performáticos em termos de salvamentos e os 3 mais performáticos em termos de compartilhamentos. Gere um relatório comparativo e sugira uma estratégia de conteúdo focada em aumentar salvamentos e compartilhamentos, usando o formato de tabela Markdown."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Auditoria de Landing Page para Ads",
+    "descrição": "Garante que a página de destino não mate a conversão.",
+    "Promt": "Atue como Especialista em CRO. Liste 7 elementos obrigatórios que a Landing Page de destino do anúncio deve ter para garantir a conversão. (Ex: Headline congruente com o anúncio, Velocidade de carregamento, Botão visível na primeira dobra)."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Auditoria de Processos Internos",
+    "descrição": "Identifica gargalos na operação da agência.",
+    "Promt": "Atue como Consultor Empresarial. Crie um questionário de 5 perguntas para fazer aos funcionários da agência a fim de descobrir gargalos de produtividade. Ex: 'Qual tarefa repetitiva consome mais seu tempo?', 'Onde a comunicação costuma falhar?'."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Auditoria E-E-A-T",
+    "descrição": "Melhora a percepção de Experiência, Autoridade e Confiança.",
+    "Promt": "Atue como Avaliador do Google. Analise a página 'Sobre Nós' de um site hipotético de [NICHO] e liste 5 elementos que devem estar presentes para satisfazer os critérios de E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness). Ex: Biografia dos autores, Endereço físico, Política editorial."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Automação de Processos (Workflow)",
+    "descrição": "Ideias para reduzir trabalho manual.",
+    "Promt": "Atue como Especialista em Zapier/Automação. Descreva um fluxo de automação para quando um novo Lead preenche o formulário no site da agência. Passo 1: Lead entra. Passo 2: Enviar para Slack da equipe. Passo 3: Adicionar ao CRM (Trello/Pipedrive). Passo 4: Enviar e-mail automático de 'Recebemos seu contato'."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Brainstorming de Nomes para Produtos/Eventos",
+    "descrição": "Gera nomes criativos e disponíveis para novos projetos, quadros de conteúdo ou produtos digitais.",
+    "Promt": "Estou criando um novo quadro de conteúdo/produto sobre [TEMA]. O público é [PÚBLICO]. Gere 10 ideias de nomes criativos. Estilos: 3 nomes curtos e modernos, 3 nomes baseados em trocadilhos ou aliteração, 4 nomes descritivos e sérios."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Briefing de Animação para Branding",
+    "descrição": "Criar um briefing técnico e criativo para a produção de uma animação curta (motion graphics) que explica o serviço da agência.",
+    "Promt": "Atue como um Diretor de Arte e Roteirista de Motion Graphics. Elabore um briefing para a criação de um vídeo animado (máximo 45 segundos) que explique o valor da agência [Nome da Agência] para clientes B2B. O briefing deve incluir: (1) Mensagem Chave, (2) Estilo Visual Desejado (Ex: Minimalista, Ilustrativo 2D, Isométrico), (3) Estrutura do Roteiro (introdução do problema, solução da agência, CTA), (4) Orientações de Áudio (música e narração) e (5) Referências de Cores e Tipografia. Entregue o roteiro dividido por cenas (quadros)."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Briefing de Anúncio UGC (User Generated Content)",
+    "descrição": "Criar um briefing detalhado para solicitar conteúdo autêntico de usuários ou micro-influenciadores para uso em anúncios.",
+    "Promt": "Atue como um Diretor de Criação focado em performance. Desenvolva um briefing completo para um criativo UGC que será usado em uma campanha de conversão para o produto [Nome do Produto]. O briefing deve incluir: (1) O problema que o produto resolve (Gancho), (2) O que o usuário deve mostrar (Demonstração de Uso), (3) Call to Action (CTA) verbal obrigatório, (4) Duração máxima do vídeo, e (5) Orientações sobre o formato de gravação (vertical, natural, sem filtros excessivos)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Briefing de Carrossel (Técnico)",
+    "descrição": "Instruções visuais slide a slide para designers.",
+    "Promt": "Atue como Diretor de Arte. Crie um briefing visual para um carrossel de 7 slides sobre [TEMA]. Para cada slide, descreva: 1) A Headline, 2) A sugestão de imagem/ícone (seja específico), 3) A disposição dos elementos (layout), 4) A cor de fundo (alternância para manter ritmo). Estilo: [ESTILO VISUAL]."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Briefing de Ícones para Destaques",
+    "descrição": "Define o estilo visual e os elementos para criar capas de destaques do Instagram harmônicas.",
+    "Promt": "Preciso criar capas para os Destaques do Instagram de um perfil sobre [TEMA]. Os temas dos destaques são: 1) Quem sou, 2) Serviços, 3) Feedback, 4) Dicas. Descreva qual ícone ou símbolo visual deve representar cada um desses temas. Sugira um estilo visual (ex: linha fina, 3D, minimalista, desenhado a mão) que combine com uma marca [ADJETIVO DA MARCA]."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Briefing para Criativo Estático (Imagem)",
+    "descrição": "Orienta o designer a criar imagens que convertem.",
+    "Promt": "Atue como Creative Strategist. Crie um briefing para 3 variações de imagem para anúncio de [PRODUTO]. Variação 1: Foco na Dor (Problema). Variação 2: Foco no Benefício (Solução). Variação 3: Prova Social (Depoimento). Descreva o texto da imagem e o elemento visual principal."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Briefing para Influenciadores",
+    "descrição": "Guia para parceiros criarem conteúdo assertivo.",
+    "Promt": "Atue como Influencer Marketing Manager. Crie um briefing de uma página para um influenciador divulgar [PRODUTO]. Inclua: 1) O que pode e não pode falar, 2) As Key Messages (mensagens chave), 3) Sugestão de roteiro de 3 stories, 4) Cupom e CTA."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Briefing Visual para Designers (Carrossel)",
+    "descrição": "Transforma um tema abstrato em um briefing técnico e visual detalhado para passar para a equipe de design ou para criar você mesmo.\nEvita refações detalhando paleta, tipografia, hierarquia e elementos visuais slide por slide.",
+    "Promt": "Atue como um Diretor de Arte. Crie um briefing detalhado para um carrossel de 7 slides sobre o tema [INSERIR TEMA]. Para cada slide, descreva: 1) O texto principal (Headline), 2) O texto de apoio, 3) A sugestão de imagem ou ícone para ilustrar, 4) A disposição dos elementos (layout). O estilo visual deve ser [INSERIR ESTILO, ex: minimalista, tech, vibrante]."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Bullet Points Fascinantes",
+    "descrição": "Lista de benefícios que geram curiosidade extrema.",
+    "Promt": "Atue como Copywriter Old School. Escreva 10 'Bullet Points' de fascinação para vender um curso/livro sobre [TEMA]. Use a estrutura: 'O segredo para...', 'A técnica de 5 minutos que...', 'Por que você nunca deve fazer X...'. O objetivo é deixar o leitor louco para saber a resposta."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Caixinha de Perguntas Estratégica",
+    "descrição": "Perguntas que o próprio dono do perfil pode se fazer para vender.",
+    "Promt": "Atue como Estrategista. Crie uma lista de 5 perguntas para 'mandar para si mesmo' na caixinha de perguntas. As perguntas devem permitir que você fale sobre os benefícios do seu produto [PRODUTO] sem parecer que está vendendo."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Calendário de Conteúdo (Sazonalidade)",
+    "descrição": "Planejamento anual considerando datas de pico.",
+    "Promt": "Atue como Gerente de Marketing. Crie um calendário macro de temas de blog para o nicho [NICHO] considerando as estações do ano e datas comemorativas. (Ex: Black Friday, Natal, Volta às Aulas). Sugira 1 tema principal para cada mês que tenha alta busca sazonal."
+  },
+  {
+    "nome": "Calendário de Conteúdo Mensal (Instagram/TikTok)",
+    "categoria_ref": "Social Media & Comunidade",
+    "descrição": "Cria um calendário completo de postagens alinhado ao objetivo, persona e frequência ideal.",
+    "Promt": "Sou [INSERIR PROFISSÃO/NICHO] e quero montar um calendário mensal de conteúdo para [INSERIR REDE SOCIAL: Instagram, TikTok ou ambas].\nMeu objetivo principal é [INSERIR OBJETIVO: gerar leads, vender produto X, fortalecer marca pessoal etc.].\nMinha persona é [DESCREVER PERSONA: idade, interesses, dores, sonhos].\nQuero postar [INSERIR QUANTIDADE] vezes por semana.\nCrie um calendário organizado por semanas com: dia, formato (reels, carrossel, foto, vídeo curto, stories), tema principal e ideia de título.\nInclua o objetivo de cada post (atração, relacionamento, conversão), sugestão de CTA e um exemplo de gancho para os vídeos curtos.\nSe possível, indique variações de conteúdos reaproveitando o mesmo tema em formatos diferentes.\nEntregue em formato de tabela organizada para facilitar a implementação."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Calendário Editorial Mensal (Visão Geral)",
+    "descrição": "Estrutura um mês inteiro de conteúdo equilibrando funil de vendas e formatos.",
+    "Promt": "Atue como um Estrategista de Conteúdo. Crie um calendário editorial para 4 semanas (3 posts/semana + stories diários) para o nicho [INSERIR NICHO]. Defina para cada dia: 1) Formato (Reels/Carrossel/Estático), 2) Etapa do Funil, 3) Headline provisória, 4) Objetivo (Engajamento/Venda/Autoridade)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário Semanal: Nutrição e Estética",
+    "descrição": "Planejamento de 7 dias para nichos de saúde, focado em desejo visual e autoridade técnica.",
+    "Promt": "Crie um calendário de postagens de 7 dias para uma Clínica de Estética/Nutrição. Para cada dia, siga ESTRITAMENTE esta estrutura de saída:\n- Data: [Dia da semana]\n- Ideia de Conteúdo: [Título]\n- Estrutura de Design: [Descreva onde vai a foto, onde vai o texto, elementos gráficos como setas ou círculos]\n- Cores: [Sugestão de Hex ou Tons, ex: Verde Menta #98FF98 e Branco]\n- Fontes: [Sugestão de par, ex: Serifada elegante para título, Sans para corpo]\n- Legenda: [Texto curto com CTA]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Antes e Depois (Arquitetura)",
+    "descrição": "Focado na transformação de ambientes.",
+    "Promt": "Crie 1 post de Antes e Depois para Arquiteto. Estrutura:\n- Ideia: [Reforma de Sala]\n- Estrutura de Design: [Carrossel Slide 1: Foto do 'Depois' (Lindo). Slide 2: Foto do 'Antes' (Feio). Slide 3: O Projeto 3D. Slide 4: Detalhes]\n- Cores: [Neutras para destacar a obra]\n- Fontes: [Fineline]\n- Legenda: [História da reforma]"
+  },
+  {
+    "nome": "Calendário: Bastidores (Marca Pessoal)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Humanização e conexão com a rotina.",
+    "Promt": "Planeje 1 post de 'Bastidores do Trabalho' para Designer. Estrutura:\n- Ideia: [Processo criativo bagunçado]\n- Estrutura de Design: [Colagem de fotos (estilo scrapbook), post-its digitais colados por cima, fitas adesivas, rabiscos a mão]\n- Cores: [Papel Kraft, Branco, Preto]\n- Fontes: [Handwritten (letra de mão)]\n- Legenda: [Vulnerabilidade sobre o processo]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Black Friday (Antecipação)",
+    "descrição": "Visual agressivo de varejo para criar lista de espera.",
+    "Promt": "Crie 3 posts de 'Esquenta Black Friday'. Estrutura:\n- Data: [Novembro]\n- Ideia: [Revelação de Oferta]\n- Estrutura de Design: [Fundo preto texturizado, texto 'BLACK FRIDAY' gigante em 3D ou neon, elemento de 'fita de isolamento' amarela]\n- Cores: [Preto e Amarelo (cuidado para não ficar brega)]\n- Fontes: [Heavy/Black]\n- Legenda: [Escassez e Grupo VIP]"
+  },
+  {
+    "nome": "Calendário: Carrossel Narrativo (Storytelling)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Conta uma história slide a slide.",
+    "Promt": "Crie um Carrossel de História para Marca de Café. Estrutura:\n- Ideia: [A origem do grão]\n- Estrutura de Design: [Elementos contínuos que atravessam os slides (uma linha ou galho de café), fotos recortadas interagindo com ilustrações]\n- Cores: [Marrom, Bege, Verde Folha]\n- Fontes: [Rústica/Vintage]\n- Legenda: [Convite para provar]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Checklist (Utilidade)",
+    "descrição": "Conteúdo salvável para consulta rápida.",
+    "Promt": "Crie 1 post estilo Checklist para Organização Financeira. Estrutura:\n- Ideia: [O que pagar no começo do mês]\n- Estrutura de Design: [Fundo de papel pautado ou clean, lista com caixas de seleção (checkbox) ao lado de cada item, título destacado]\n- Cores: [Branco, Azul Caneta, Cinza]\n- Fontes: [Typewriter (Máquina de escrever) ou Sans]\n- Legenda: [Dica extra]"
+  },
+  {
+    "nome": "Calendário: Data Comemorativa (Dia das Mães/Pais)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Planejamento emocional para datas do varejo.",
+    "Promt": "Crie um plano de 3 posts para a semana do Dia das Mães para uma Loja de Presentes. Estrutura:\n- Data: [Faltam 3 dias, Faltam 1 dia, Dia D]\n- Ideia: [Presente emocional]\n- Estrutura de Design: [Moldura floral ou delicada, foto do produto humanizada (alguém entregando), texto cursivo]\n- Cores: [Pastel, Rosa, Salmão]\n- Fontes: [Script (manuscrita) e Serif]\n- Legenda: [Emocionante]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Educativo para Advogados/Consultores",
+    "descrição": "Focado em sobriedade e leitura fácil para passar autoridade sem ser chato.",
+    "Promt": "Planeje 5 posts educativos para um Advogado Trabalhista. Estrutura para cada post:\n- Ideia: [Dúvida comum do cliente]\n- Estrutura de Design: [Layout de Carrossel, fundo sólido, foto do profissional recortada no canto direito, texto alinhado à esquerda]\n- Cores: [Azul Marinho e Dourado]\n- Fontes: [Serifada clássica]\n- Legenda: [Explicativa e jurídica, mas simples]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Fitness (Desafio 30 Dias)",
+    "descrição": "Layouts enérgicos para acompanhar progresso.",
+    "Promt": "Crie estrutura para um 'Desafio de 30 Dias' de Personal Trainer. Estrutura para posts de Check-in:\n- Ideia: [Exercício do Dia]\n- Estrutura de Design: [Foto de ação recortada, tipografia gigante atrás da pessoa (efeito profundidade), barra de progresso gráfica]\n- Cores: [Amarelo Marca-texto e Preto]\n- Fontes: [Itálica e Grossa (Velocidade)]\n- Legenda: [Instrução do treino]"
+  },
+  {
+    "nome": "Calendário: Gastronomia (Food Porn)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Focado em fotos de alta qualidade e layouts que não atrapalhem a visão da comida.",
+    "Promt": "Crie 3 posts para uma Hamburgueria para o fim de semana. Estrutura:\n- Data: [Sexta, Sábado, Domingo]\n- Ideia: [Fome e Urgência]\n- Estrutura de Design: [Foto do lanche ocupando 100% da tela, texto pequeno e bold apenas no rodapé, botão de 'Peça Já' simulado]\n- Cores: [Laranja, Vermelho e Branco]\n- Fontes: [Sans Serif Bold e Arredondada]\n- Legenda: [Curta, focada no delivery]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Imobiliária (Alto Padrão)",
+    "descrição": "Focado em elegância, pouca informação escrita e muita imagem.",
+    "Promt": "Crie 3 posts para vender Imóveis de Luxo. Estrutura:\n- Ideia: [Venda de Sonho/Lifestyle]\n- Estrutura de Design: [Carrossel panorâmico (sem divisórias visíveis), texto fino e pequeno no canto inferior esquerdo, logo marca d'água]\n- Cores: [Preto, Cinza Chumbo, Branco]\n- Fontes: [Montserrat ou Gotham (Minimalistas)]\n- Legenda: [Descritiva e aspiracional]"
+  },
+  {
+    "nome": "Calendário: Infográfico (Passo a Passo)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Ensina algo complexo de forma visualmente guiada.",
+    "Promt": "Crie 1 post estilo Infográfico para ensinar 'Como Investir 100 reais'. Estrutura:\n- Ideia: [Caminho do dinheiro]\n- Estrutura de Design: [Linha do tempo vertical conectando 4 ícones, texto curto ao lado de cada ícone, seta apontando para o próximo passo]\n- Cores: [Verde Dinheiro, Branco, Cinza]\n- Fontes: [Sans Serif legível]\n- Legenda: [Complementar aos passos]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Lançamento de Coleção (Moda)",
+    "descrição": "Estrutura visual para uma semana de antecipação e lançamento de produtos físicos.",
+    "Promt": "Crie um cronograma de aquecimento de 5 dias para lançamento de uma nova coleção de Roupas. Estrutura de resposta para cada dia:\n- Data: [Dia 1 a 5]\n- Ideia: [Foco em Spoiler ou Detalhe]\n- Estrutura de Design: [Ex: Foto macro do tecido, texto vazado em cima, layout minimalista]\n- Cores: [Tons terrosos e Preto]\n- Fontes: [Moderna e Fina]\n- Legenda: [Focada em gerar desejo e antecipação]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Meme/Entretenimento Corporativo",
+    "descrição": "Conteúdo leve para meio de semana, adaptando memes para o nicho profissional.",
+    "Promt": "Crie 3 ideias de posts estilo 'Meme' para um escritório de Contabilidade (quebra de padrão). Estrutura:\n- Ideia: [Situação engraçada com Imposto de Renda]\n- Estrutura de Design: [Formato clássico de meme (imagem em cima, faixa branca com texto preto em cima), ou reaction face]\n- Cores: [Padrão da internet]\n- Fontes: [Arial ou Comic Sans (ironicamente)]\n- Legenda: [Engraçada e relacionável]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Motivacional (Segunda-feira)",
+    "descrição": "Posts para inspirar a semana, com foco em tipografia e fotografia de lifestyle.",
+    "Promt": "Crie 4 opções de posts para 'Segundas-feiras Motivacionais' para um perfil de Empreendedorismo. Estrutura:\n- Ideia: [Frase ou Insight]\n- Estrutura de Design: [Foto preto e branco de fundo com overlay escuro, frase centralizada grande, logo pequeno no topo]\n- Cores: [P&B e Amarelo destaque]\n- Fontes: [Condensed Bold (Impactante)]\n- Legenda: [Texto encorajador]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Podcast/Cortes",
+    "descrição": "Layout para destacar trechos de áudio ou vídeo.",
+    "Promt": "Crie estrutura para divulgar cortes de Podcast. Estrutura:\n- Ideia: [Frase polêmica do convidado]\n- Estrutura de Design: [Vídeo no centro (formato quadrado ou 4:5), headline fixa no topo, legendas dinâmicas embaixo, waveform de áudio animada]\n- Cores: [Cores da identidade do Podcast]\n- Fontes: [Legíveis para mobile]\n- Legenda: [Convite para ouvir completo]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Prova Social (Depoimentos)",
+    "descrição": "Layouts para mostrar prints de clientes de forma estética e credível.",
+    "Promt": "Planeje 3 posts de 'Prova Social' para um Curso Online. Estrutura:\n- Ideia: [Print de Whatsapp ou Resultado]\n- Estrutura de Design: [Mockup de celular realista segurando o print, fundo desfocado, 5 estrelas no topo]\n- Cores: [Cores da marca + Verde de sucesso]\n- Fontes: [Manuscrita para anotações e Sans para o resto]\n- Legenda: [História do aluno]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Quiz/Interativo",
+    "descrição": "Layout focado em fazer a pessoa tocar na tela.",
+    "Promt": "Crie 1 post interativo para Escola de Inglês. Estrutura:\n- Ideia: [Qual a forma correta?]\n- Estrutura de Design: [Pergunta grande no topo, duas opções de resposta em botões grandes no centro (A e B), setas indicando 'Comente A ou B']\n- Cores: [Azul e Vermelho (Cores das bandeiras)]\n- Fontes: [Bold e Divertida]\n- Legenda: [Explicação da resposta correta]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Tecnologia/Inovação (SaaS)",
+    "descrição": "Visual futurista e limpo para demonstrar software.",
+    "Promt": "Planeje 3 posts para uma Startup de Tecnologia. Estrutura:\n- Ideia: [Feature do produto]\n- Estrutura de Design: [Mockup do dashboard do software flutuando em 3D, elementos de 'brilho' ou neon, fundo gradiente escuro]\n- Cores: [Roxo, Azul Neon, Preto]\n- Fontes: [Roboto ou Inter (Tech)]\n- Legenda: [Focada em produtividade]"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Calendário: Tweet Repost (Autoridade Rápida)",
+    "descrição": "Simula um tweet para gerar leitura rápida e compartilhamento.",
+    "Promt": "Crie estrutura para post de frase estilo Tweet. Estrutura:\n- Ideia: [Pensamento rápido do dia]\n- Estrutura de Design: [Simulação da interface do Twitter/X (foto de perfil, @, texto, data), fundo degradê suave atrás do print]\n- Cores: [Branco (card) e Gradiente da marca (fundo)]\n- Fontes: [Inter ou System Font]\n- Legenda: [Expansão do pensamento]"
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Campanha para WhatsApp (Direct)",
+    "descrição": "Anúncios que iniciam conversa imediata.",
+    "Promt": "Atue como Estrategista de Conversão. Crie a copy para um anúncio de Facebook com objetivo de 'Mensagem para WhatsApp'. O texto deve incentivar o clique para tirar uma dúvida específica sobre [PRODUTO]. CTA: 'Chame no Whats para saber mais'."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Canva: Animação Simples para Reels",
+    "descrição": "Como transformar uma arte estática em vídeo animado.",
+    "Promt": "Como uso as ferramentas de animação do Canva para criar um Reels simples a partir de uma imagem estática? Explique como usar a animação 'Surgir' ou 'Teclado' nos textos e como animar elementos individuais para entrarem em tempos diferentes."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Canva: Efeito de Texto Curvado/3D",
+    "descrição": "Como criar tipografias que chamam atenção usando recursos nativos do Canva.",
+    "Promt": "Sou usuário de Canva. Me ensine um truque para criar um título com efeito 'Retro 3D' ou Curvado que chame atenção. Quais efeitos de texto devo combinar? (Ex: Sombreado + Curvado). Dê a configuração exata de Distância e Direção para o texto ficar legível e pop."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Canva: Hack de Textura (Granulação)",
+    "descrição": "Como deixar o design menos 'plástico' e mais profissional adicionando textura.",
+    "Promt": "Meus designs no Canva parecem muito artificiais. Me ensine o hack de adicionar texturas (Grain, Noise, Paper). Quais termos devo buscar em 'Elementos'? Como aplico essa textura por cima de tudo e qual 'Modo de Mesclagem' (Transparency/Blend Mode) devo usar para ficar sutil?"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Canva: Mockups Realistas (Smartmockups)",
+    "descrição": "Como colocar a arte dentro da tela de um celular ou computador.",
+    "Promt": "Quero apresentar meu design aplicado na tela de um iPhone ou na capa de um livro. Como uso o recurso 'Smartmockups' do Canva para fazer isso de forma automática e realista? Onde clico e como ajusto a imagem?"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Canva: Paleta de Cores a partir de Foto",
+    "descrição": "Como extrair cores harmônicas de uma foto de produto automaticamente.",
+    "Promt": "Tenho uma foto de produto no Canva e quero que o fundo e os textos combinem com ela. Como uso a ferramenta de 'Estilos' ou o conta-gotas inteligente do Canva para extrair a paleta de cores exata da foto e aplicar no design?"
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Card de Tarefa para Freelancer",
+    "descrição": "Briefing operacional para delegar sem erros.",
+    "Promt": "Atue como Coordenador de Tráfego. Crie um modelo de descrição de tarefa (para Trello/Asana) para delegar a criação de [PEÇA] para um Designer Freelancer. Campos obrigatórios: Objetivo, Dimensões, Texto, Referências Visuais, Prazo (Deadline) e Critérios de Aprovação."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Carrossel de Narrativa (Storytelling)",
+    "descrição": "Conta uma história pessoal ou de marca para gerar conexão.",
+    "Promt": "Atue como Storyteller. Crie briefing para carrossel de 8 slides contando 'A maior lição que aprendi sobre [TEMA]'. Use a Jornada do Herói. Slide 1: Gancho emocional. Meio: O conflito/erro. Final: A superação e lição moral. Estilo: Editorial e limpo."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Carrossel Educativo (Passo a Passo)",
+    "descrição": "Ensina algo técnico para gerar salvamentos e autoridade.",
+    "Promt": "Atue como Diretor de Arte e Redator. Crie um briefing para carrossel de 7 slides 'Como fazer [INSERIR TAREFA]'. Slide 1: Headline forte + Promessa. Slides 2-6: Passos visuais e texto curto. Slide 7: Resumo e CTA para salvar. Estilo visual: [INSERIR ESTILO]."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Checklist de Acessibilidade em Design",
+    "descrição": "Um validador rápido para garantir que as artes criadas sejam acessíveis e legíveis para todos os usuários.",
+    "Promt": "Analise (simbolicamente) meu processo de design. Crie um Checklist de 5 itens de 'Acessibilidade para Social Media' que eu devo conferir antes de postar qualquer arte. Inclua verificação de contraste de cor, tamanho de fonte e uso de legendas/alt text. Explique a importância de cada um."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Checklist de Conformidade de Marca (Brand Compliance)",
+    "descrição": "Lista de verificação para garantir que todo criativo produzido está em total conformidade com o manual de identidade visual do cliente.",
+    "Promt": "Atue como um Gerente de Qualidade Visual. Crie um checklist de 15 itens essenciais para revisar antes de finalizar e entregar qualquer peça gráfica (social media, banner, e-mail marketing) para o cliente [Nome do Cliente]. O checklist deve abordar: (1) Uso correto da logo (margem, tamanho), (2) Paleta de cores oficial (CMYK/RGB/HEX), (3) Tipografia primária e secundária, (4) Tom e estilo de imagem (fotografia vs. ilustração) e (5) Resolução e formato de exportação final."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Checklist de Controle de Qualidade (QA)",
+    "descrição": "O que conferir antes de enviar qualquer coisa para o cliente.",
+    "Promt": "Atue como Revisor. Crie um Checklist de QA (Quality Assurance) de 10 itens para ser verificado antes de enviar um e-mail marketing para a base. Itens: Links funcionam? Assunto está correto? Texto alternativo nas imagens? Ortografia? Versão Mobile testada?"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Checklist de Design para Ads",
+    "descrição": "Valida se o criativo vai performar antes de publicar.",
+    "Promt": "Atue como Performance Designer. Crie um checklist de 5 pontos para aprovar um criativo de Facebook Ads. Verifique: Contraste do botão, Legibilidade em mobile, Regra dos 20% de texto, Clareza da Proposta de Valor e Foco Visual (O olho vai para onde?)."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Checklist de Lançamento de Campanha",
+    "descrição": "O que conferir antes de apertar 'Publicar'.",
+    "Promt": "Atue como Gestor de Tráfego. Crie um checklist final de 10 itens para verificar antes de publicar uma campanha. (Ex: Pixel instalado e ativo? Orçamento diário está correto? Links abrem na versão mobile? Ortografia revisada? Segmentação geográfica correta?)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Checklist de SEO On-Page",
+    "descrição": "O que verificar antes de publicar um artigo.",
+    "Promt": "Atue como Analista de Qualidade. Crie um checklist de 8 itens para verificar no WordPress antes de publicar um post. Inclua: URL amigável, Palavra-chave no primeiro parágrafo, Heading Tags (H1, H2), Otimização de imagens, Links externos para fontes confiáveis e Call to Action."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Checklist Mensal de Métricas",
+    "descrição": "O que analisar no fim do mês para ajustar a rota.",
+    "Promt": "Atue como Analista de Dados. Crie um checklist das 5 métricas mais importantes para acompanhar no Instagram para um objetivo de [OBJETIVO: VENDA ou BRANDING]. Explique como interpretar se o número está bom ou ruim."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Checklist Pós-Lançamento de Campanha (72h)",
+    "descrição": "Lista de verificações e ações imediatas a serem tomadas após as primeiras 72 horas de uma nova campanha de Ads.",
+    "Promt": "Atue como um Otimizador de Campanhas (Ads Ops). Crie um checklist de 10 passos para monitoramento e ajuste de campanhas recém-lançadas (nas primeiras 72 horas) no Google Ads ou Meta Ads. O checklist deve cobrir: (1) Verificação de entrega e volume, (2) Análise de frequência, (3) CPA/CPL preliminar, (4) Qualidade da Landing Page, (5) Saturação de criativo. Organize em uma lista numerada com a Ação e a Métrica de Referência para decisão (ex: Se CTR < 1%, Desligar/Substituir)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Classificação de Intenção de Busca",
+    "descrição": "Define o que o usuário quer ver para cada palavra-chave.",
+    "Promt": "Atue como Analista de Conteúdo. Classifique a Intenção de Busca das seguintes palavras-chave: [LISTA DE PALAVRAS]. Classifique como: 1) Informacional (quer aprender), 2) Navegacional (quer um site específico), 3) Transacional (quer comprar), 4) Investigação Comercial (comparando opções). Sugira o tipo de conteúdo ideal para cada uma."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Combinação Tipográfica (Pairing)",
+    "descrição": "Sugere fontes que conversam bem entre si.",
+    "Promt": "Atue como Designer Tipográfico. Sugira 3 combinações de fontes (Google Fonts) para uma marca de [NICHO] que quer transmitir [ADJETIVOS: ex: Confiança e Modernidade]. Indique uma fonte para Títulos (Display/Bold) e uma para Corpo de Texto (Sans-serif/Leitura). Explique a escolha."
+  },
+  {
+    "nome": "Conceito Criativo para Capa (Thumbnail) YouTube",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Gera ideias visuais para thumbnails que se destacam na concorrência, focando em expressões faciais e elementos de curiosidade.",
+    "Promt": "Vou gravar um vídeo para o YouTube com o título [TITULO DO VÍDEO]. Aja como um estrategista de CTR do YouTube. Descreva 3 conceitos visuais para a Thumbnail (miniatura). Detalhe: 1) A expressão facial do sujeito, 2) O que deve estar escrito em texto curto (máximo 3 palavras), 3) O elemento de fundo ou objeto de destaque. O objetivo é chamar muita atenção."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Conceito de Embalagem (Packaging)",
+    "descrição": "Ideias para caixas ou rótulos impactantes.",
+    "Promt": "Atue como Designer de Embalagem. Descreva um conceito de embalagem para [PRODUTO] que proporcione uma experiência de 'Unboxing' incrível. Pense em: Acabamento do material (fosco/brilho), Mensagem escondida ao abrir, disposição do produto e sustentabilidade."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Conceito de Thumbnail (YouTube)",
+    "descrição": "Capas de vídeo focadas em alto CTR.",
+    "Promt": "Atue como Thumbnail Designer. Descreva 3 conceitos visuais para uma capa de vídeo com o título [TÍTULO DO VÍDEO]. Detalhe: 1) A expressão facial do sujeito, 2) O objeto de destaque/seta, 3) O texto curto na imagem (máx 3 palavras), 4) A cor de fundo para contraste."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Conclusão e CTA de Artigo",
+    "descrição": "Finaliza o texto levando para a conversão.",
+    "Promt": "Atue como Copywriter. Escreva uma conclusão para um artigo sobre [TEMA]. Recapitule os 3 pontos principais e termine com uma CTA (Chamada para Ação) contextual levando para baixar um E-book gratuito ou agendar uma consultoria."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Construção de Garantia (Inversão de Risco)",
+    "descrição": "Remove o peso da decisão das costas do cliente.",
+    "Promt": "Atue como Estrategista de Oferta. Crie 3 opções de Garantia para [PRODUTO] que vão além do padrão '7 dias'. Exemplo: Garantia Condicional ('Se você fizer X e não tiver resultado, eu devolvo o dobro') ou Garantia Estendida. O objetivo é tornar o risco zero para o comprador."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Consultor de Tipografia (Combinação de Fontes)",
+    "descrição": "Recomenda pares de fontes (font pairing) que funcionam bem juntas para títulos e textos, garantindo legibilidade e estilo.",
+    "Promt": "Preciso de uma combinação de fontes (Font Pairing) para um projeto de design [ESTILO DO PROJETO, ex: elegante e moderno]. Me sugira 3 pares de fontes (uma para Títulos/Headlines e uma para Corpo de Texto). Podem ser fontes do Google Fonts. Explique por que essas duas fontes combinam entre si."
+  },
+  {
+    "nome": "Copy Completa para Página de Vendas (Landing Page)",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Monta a estrutura de uma landing page com seções, títulos, provas e CTA focados em conversão.",
+    "Promt": "Tenho este produto/serviço/oferta: [DESCREVER DETALHADAMENTE].\nMeu público-alvo é [DESCREVER PERSONA, DOR PRINCIPAL E OBJETIVO].\nQuero criar uma página de vendas para [INSERIR OBJETIVO: vender diretamente, capturar leads, agendar chamada].\nMonte a copy completa da landing page com as seguintes seções: headline principal, subtítulo, seção de empatia/dor, apresentação da solução, benefícios em bullets, prova social, garantia, FAQ e CTA final.\nEm cada seção, traga exemplos de frases prontas e sugestões de variações para testes A/B.\nUse uma linguagem alinhada ao nível de consciência do público (frio, morno ou quente), que você julgar mais adequado com base na descrição.\nInclua sugestões de microtextos para botões (CTAs) que fujam do genérico “saiba mais”.\nAo final, faça um pequeno resumo com os pontos fortes da oferta e possíveis ajustes para deixá-la mais atraente."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Copy Curta para Instagram Stories",
+    "descrição": "Textos diretos para anúncios verticais de 15 segundos.",
+    "Promt": "Atue como Redator Publicitário. Crie 3 opções de texto curto para sobrepor em um vídeo de anúncio nos Stories. O texto deve ter no máximo 5 palavras e ser extremamente legível. O objetivo é fazer a pessoa tocar no adesivo ou arrastar pra cima."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Copy Focada em Autoridade",
+    "descrição": "Vende baseando-se na reputação do expert/empresa.",
+    "Promt": "Atue como Copywriter. Escreva um anúncio apresentando o expert [NOME] para um público frio. Foco: 'Quem é ele e por que você deve ouvi-lo?'. Cite números (alunos, faturamento, anos de experiência) para construir credibilidade imediata antes da oferta."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Copy Modelo PAS (Problema-Agitação-Solução)",
+    "descrição": "Fórmula clássica de copywriting aplicada a ads.",
+    "Promt": "Atue como Copywriter. Escreva um texto para Facebook Ads vendendo [PRODUTO] usando a fórmula PAS. 1) Problema: Identifique a dor. 2) Agitação: Piora a dor, mostre as consequências de não resolver. 3) Solução: Apresente o produto como o alívio imediato."
+  },
+  {
+    "nome": "Copy para Anúncio de Facebook/Instagram (Longa)",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Estrutura um texto de anúncio (legenda) longo e persuasivo, ideal para vender infoprodutos ou serviços complexos que exigem mais explicação (formato Storytelling).",
+    "Promt": "Escreva uma 'Primary Text' (texto principal) para um anúncio de Facebook Ads vendendo [INSERIR OFERTA]. Use o formato de Storytelling Longo. Comece com uma história de superação ou identificação com o problema do avatar. Desenvolva a jornada do herói até a descoberta da solução (meu produto). Termine com uma quebra de objeção e um CTA claro para 'Saiba Mais'."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Copy para Anúncio de Remarketing",
+    "descrição": "Texto persuasivo para recuperar quem quase comprou.",
+    "Promt": "Atue como Copywriter de Conversão. Escreva o texto para um anúncio de Facebook focado em Remarketing (pessoas que visitaram a página de vendas mas não compraram). Use o gatilho da Escassez ou ofereça um Bônus extra para fechar agora. Tom: 'Vi que você esqueceu isso...'"
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Copy para Cold Mail (Prospecção B2B)",
+    "descrição": "E-mail frio para conseguir reuniões com empresas.",
+    "Promt": "Atue como SDR (Sales Development Rep). Escreva um e-mail frio (Cold Mail) curto para prospectar donos de [TIPO DE EMPRESA]. Estrutura: 1) Elogio genuíno/Pesquisa prévia, 2) Identificação de um provável problema, 3) Como resolvemos isso para um concorrente, 4) Convite para chamada de 10min."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Copy para Página de Captura (Landing Page)",
+    "descrição": "Cria o texto da dobra (primeira seção) de uma página de captura de leads, focada em alta taxa de conversão.",
+    "Promt": "Escreva o texto da 'Hero Section' (primeira dobra) de uma Landing Page para capturar leads para [INSERIR ISCA DIGITAL/EVENTO]. Preciso de: 1) Uma Headline (Título) ultra-promessa. 2) Uma Subheadline que explique o 'como'. 3) 3 Bullets com os principais benefícios. 4) Texto do Botão de CTA (ex: Quero garantir minha vaga)."
+  },
+  {
+    "nome": "Criativos para Tráfego Pago (Facebook/Instagram Ads)",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Gera ideias de criativos persuasivos com foco em cliques e conversão para campanhas pagas.",
+    "Promt": "Tenho este produto/serviço: [DESCREVER PRODUTO/SERVIÇO EM DETALHES].\nMeu público-alvo é [DESCREVER PERSONA: idade, localização, renda, dores, desejos].\nO objetivo da campanha é [INSERIR OBJETIVO: leads, vendas imediatas, tráfego para site, mensagens no WhatsApp].\nQuero anúncios para [INSERIR PLATAFORMA: Facebook Ads, Instagram Ads, ambos].\nCrie ideias de criativos com: conceito visual, frase principal do anúncio, texto complementar, CTA e sugestão de imagem/vídeo.\nSepare em, pelo menos, 3 variações: uma focada na dor, uma focada no desejo e uma focada na oportunidade/urgência.\nInclua também sugestões de ângulos diferentes para testar (ex: prova social, bastidores, benefício principal, comparação antes/depois).\nEntregue o resultado em formato organizado para eu passar direto para o designer e para o gestor de tráfego."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Criação de Glossário do Nicho",
+    "descrição": "Captura tráfego de termos técnicos.",
+    "Promt": "Atue como Professor. Liste 10 termos técnicos do nicho [NICHO] que merecem uma página de glossário ou verbete. Para cada termo, escreva uma definição de 2 linhas simples que qualquer iniciante entenda."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Criação de Logo (Conceito)",
+    "descrição": "Ideias iniciais para logotipos.",
+    "Promt": "Atue como Logo Designer. Gere 5 ideias conceituais para um logotipo de [NOME DA EMPRESA], que atua em [ÁREA]. Evite clichês. Sugira: 1) Um símbolo abstrato, 2) Um monograma (letras), 3) Um mascote minimalista. Explique o significado oculto de cada ideia."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Criação de Memes (Brand Safe)",
+    "descrição": "Adapta memes famosos para o contexto da marca.",
+    "Promt": "Atue como Criador de Conteúdo. Pegue o meme visual [NOME DO MEME, ex: Namorado Distraído] e adapte para o contexto de [NICHO]. Descreva quem/o que é cada personagem na imagem para criar uma piada interna que o público alvo entenda."
+  },
+  {
+    "nome": "Criação de Persona de Marketing (Cliente Ideal)",
+    "categoria_ref": "Social Media & Comunidade",
+    "descrição": "Ajuda a transformar informações soltas em uma persona clara, útil para campanhas e conteúdos.",
+    "Promt": "Tenho estas informações sobre meu público: [LISTAR TUDO O QUE VOCÊ SABE: idade, profissão, renda, dores, sonhos, objeções].\nQuero que você organize isso em uma persona de marketing completa.\nCrie um perfil com: nome fictício, idade, rotina diária, principais dores e frustrações, desejos e objetivos, crenças limitantes e objeções à compra.\nInclua quais redes sociais essa persona mais usa e como ela consome conteúdo (vídeo curto, texto, podcast etc.).\nExplique como essa persona geralmente decide comprar algo na minha categoria de produto/serviço.\nSugira 3 ângulos de comunicação que funcionariam melhor para chamar a atenção dessa persona.\nIndique também 3 erros de comunicação que eu devo evitar ao falar com esse público.\nEntregue tudo em formato de ficha de persona, bem organizada e fácil de consultar."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Criação de POP (Procedimento Operacional Padrão)",
+    "descrição": "Documenta processos para padronizar a qualidade.",
+    "Promt": "Atue como Consultor de Processos. Escreva um POP (SOP) passo a passo para a tarefa: 'Publicação de Post no Instagram'. Detalhe desde o recebimento da arte aprovada, verificação da legenda, agendamento na ferramenta, até a conferência pós-publicação."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Definidor de Público-Alvo (Interesses)",
+    "descrição": "Ajuda a brainstormar opções de segmentação por interesses, comportamentos e dados demográficos para configurar no Gerenciador de Anúncios.",
+    "Promt": "Sou gestor de tráfego. Meu cliente vende [INSERIR PRODUTO] para [INSERIR PÚBLICO GERAL]. Liste 20 opções de interesses, comportamentos ou cargos que eu possa usar para segmentar esse público no Facebook Ads. Pense fora da caixa: além dos interesses óbvios, sugira interesses correlatos (o que mais esse público consome?)."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Definição de OKRs Trimestrais",
+    "descrição": "Metas claras e mensuráveis para o time.",
+    "Promt": "Atue como Gestor de Agência. Defina 1 Objetivo (O) e 3 Resultados-Chave (KRs) para o time de Marketing Interno neste trimestre. Foco: Crescimento da Agência. Exemplo de KR: 'Aumentar leads qualificados em 20%'."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Definição de Personas",
+    "descrição": "Cria o perfil ideal do cliente para direcionar a linguagem.",
+    "Promt": "Atue como Estrategista de Marketing. Desenvolva a 'Buyer Persona' detalhada para [PRODUTO/SERVIÇO]. Inclua: Nome, Idade, Cargo, Dores principais, Desejos secretos, Objeções de compra e Canais preferidos de consumo de conteúdo."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Definição de Pilares de Conteúdo",
+    "descrição": "Organiza os temas centrais da marca.",
+    "Promt": "Atue como Brand Manager. Defina 4 pilares de conteúdo editorial para a marca [NOME DA MARCA]. Para cada pilar, sugira 3 subtemas. Exemplo: Pilar 'Estilo de Vida' -> Subtemas: Rotina, Hobbies, Viagens."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Descritor de Moodboard Visual",
+    "descrição": "Traduz uma 'vibe' abstrata em uma descrição visual concreta que pode ser usada para orientar designers ou buscar referências.",
+    "Promt": "Quero criar um Moodboard para uma marca que se define como [ADJETIVOS, ex: rebelde, urbana, noturna]. Descreva em detalhes quais tipos de imagens, texturas, iluminação e elementos urbanos devem compor esse moodboard para guiar a direção de arte."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Descrição de Produto (E-commerce)",
+    "descrição": "Texto sensorial para páginas de produto.",
+    "Promt": "Atue como Redator de E-commerce. Escreva uma descrição envolvente para [NOME DO PRODUTO]. Não liste apenas especificações. Descreva a experiência de uso, as sensações, o cheiro/toque (se aplicável) e como a vida do comprador melhora com ele."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Descrições para Google Ads",
+    "descrição": "Textos complementares que aumentam a relevância do anúncio.",
+    "Promt": "Atue como Copywriter. Escreva 4 descrições (até 90 caracteres cada) para um anúncio de pesquisa de [SERVIÇO]. As descrições devem reforçar diferenciais competitivos (Frete grátis, Atendimento 24h, Anos de mercado) e incluir uma CTA no final."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design de Apresentação (Slides)",
+    "descrição": "Visual para propostas comerciais ou palestras.",
+    "Promt": "Atue como Designer de Apresentações. Descreva o 'Slide Mestre' para uma apresentação comercial da empresa [EMPRESA]. Defina: Cabeçalho/Rodapé discretos, estilo de tópicos (bullets), tratamento de imagens e como apresentar gráficos de dados para não ficarem chatos."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design de Assinatura de E-mail",
+    "descrição": "Profissionalismo no rodapé das mensagens.",
+    "Promt": "Atue como Designer Corporativo. Desenhe o layout de uma assinatura de e-mail profissional para a equipe de [EMPRESA]. Deve conter: Foto circular, Nome, Cargo, Logo da empresa, Links para redes sociais (ícones pequenos) e um Banner promocional discreto no final."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design de E-book (Capa e Miolo)",
+    "descrição": "Conceito visual para materiais ricos.",
+    "Promt": "Atue como Designer Gráfico. Crie o conceito visual para um E-book intitulado [TÍTULO]. Descreva a Capa (Imagem principal e tipografia grande) e o layout das páginas internas (uso de margens, cores de destaque para box de 'Dica' e numeração de páginas)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design de Infográfico",
+    "descrição": "Transforma dados complexos em visual simples.",
+    "Promt": "Atue como Designer de Informação. Tenho os seguintes dados: [INSERIR DADOS/LISTA]. Descreva como transformar isso em um infográfico vertical para Pinterest/Instagram. Sugira ícones para cada ponto e como conectar as informações visualmente (fluxograma, lista numerada, gráfico de pizza)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design de Sticker Pack (WhatsApp/Telegram)",
+    "descrição": "Figurinhas da marca para engajamento.",
+    "Promt": "Atue como Ilustrador. Crie uma lista de 5 expressões/frases para um pacote de stickers da marca [MARCA] para usar no WhatsApp. Devem ser úteis no dia a dia. Ex: 'Tá pago', 'Aprovado', 'Socorro'. Sugira a ilustração que acompanha cada frase."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design de Stories (Templates)",
+    "descrição": "Padrões visuais para manter consistência nos stories.",
+    "Promt": "Atue como Social Media Designer. Descreva 3 templates de Stories editáveis (Canva) para a marca [MARCA]. Template 1: Caixinha de perguntas com fundo personalizado. Template 2: Moldura para repost de feedback. Template 3: Fundo para texto longo/aviso. Defina elementos fixos e cores."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design System (Botões e Componentes)",
+    "descrição": "Padronização de elementos de interface.",
+    "Promt": "Atue como UI Designer. Defina os estados do botão principal (CTA) para o site de [EMPRESA]. 1) Estado Normal (Default), 2) Estado Hover (ao passar o mouse), 3) Estado Pressed (ao clicar), 4) Estado Disabled (desativado). Defina cores, sombras e bordas."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design: Alinhamento Óptico vs Matemático",
+    "descrição": "Refinamento visual para o olhar treinado.",
+    "Promt": "Explique a diferença entre Alinhamento Matemático (o que o software diz que é o centro) e Alinhamento Óptico (o que o olho percebe como centro). Por que o ícone de 'Play' (triângulo) nunca parece centralizado se usarmos a ferramenta de alinhar automática?"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design: Espaço Negativo (Respiro)",
+    "descrição": "A importância de deixar espaços vazios na arte.",
+    "Promt": "Analise meu erro: meus designs ficam muito poluídos. Me explique o conceito de 'Espaço Negativo' (Respiro). Por que deixar áreas vazias na arte aumenta a percepção de luxo e organização? Dê uma regra prática de margens (safety margin) para Instagram."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Design: Hierarquia Tipográfica",
+    "descrição": "Princípios fundamentais para organizar textos em uma arte sem virar bagunça.",
+    "Promt": "Atue como professor de Design. Vou criar um banner com Título, Subtítulo e Texto de Apoio. Me dê 3 regras de ouro de Hierarquia Tipográfica para garantir que a leitura seja fluida. Fale sobre contraste de tamanho (Escala), Peso (Bold vs Light) e Cor."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Destaques do Perfil (Highlights)",
+    "descrição": "Organiza a 'vitrine' fixa do Instagram.",
+    "Promt": "Atue como Consultor de Imagem. Defina quais devem ser os 5 Destaques (Highlights) essenciais para o perfil [PERFIL]. Dê o nome de cada destaque e o que deve conter dentro (ex: 'Comece Aqui', 'Depoimentos')."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Diagnóstico de Velocidade de Página (Core Web Vitals)",
+    "descrição": "Analisar e fornecer recomendações práticas para melhorar as métricas de Core Web Vitals (LCP, FID, CLS) em um site.",
+    "Promt": "Atue como um Especialista em SEO Técnico e Performance. O site [Domínio do Cliente] está com problemas de velocidade. Liste 5 ações prioritárias e de alto impacto que o time de desenvolvimento deve tomar para melhorar as métricas de Core Web Vitals (LCP, FID, CLS). As recomendações devem ser técnicas e práticas, como otimizar imagens (lazy loading), reduzir render-blocking resources (CSS/JS) e otimizar o tempo de resposta do servidor."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "E-mail de Abertura de Carrinho (Lançamento)",
+    "descrição": "O grande anúncio de que as vendas começaram.",
+    "Promt": "Atue como Lançador. Escreva um e-mail de 'Inscrições Abertas' para o lançamento de [PRODUTO]. O tom deve ser de alta energia e celebração. Reforce os bônus para os primeiros compradores (Early Birds) e coloque o link de compra em destaque 3 vezes."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "E-mail de Aquecimento para Webinar",
+    "descrição": "Roteiro de 3 e-mails para nutrir leads e maximizar a participação em um webinar ou evento ao vivo.",
+    "Promt": "Atue como um Copywriter de Lançamento especializado em automação de e-mail marketing. Desenvolva a estrutura de 3 e-mails para aquecer leads cadastrados em um webinar sobre [Tema do Webinar: ex. 'Como Dobrar seu Faturamento B2B']. O primeiro e-mail é de confirmação/boas-vindas, o segundo é de conteúdo de valor (quebra de objeção), e o terceiro é de lembrete (2 horas antes). Para cada e-mail, forneça (1) o Assunto (Subject Line) e (2) o Corpo do texto (estrutura, focando em urgência e benefício)."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "E-mail de Cobrança de Aprovação",
+    "descrição": "Cobra o cliente que está travando o cronograma.",
+    "Promt": "Atue como Atendimento Publicitário. O cliente não aprovou o calendário há 3 dias e isso vai atrasar as postagens. Escreva um e-mail educado mas firme alertando que, se não houver aprovação até [HORA], o cronograma será impactado. Use o gatilho da responsabilidade compartilhada."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "E-mail de Conteúdo + Oferta (P.S.)",
+    "descrição": "Vende sem parecer chato no rodapé do e-mail.",
+    "Promt": "Atue como Copywriter. Escreva um e-mail de conteúdo puro dando uma dica valiosa sobre [TEMA]. No final, use a estratégia do 'P.S.' (Post Scriptum) para fazer uma transição suave para a venda de [PRODUTO]. A venda deve parecer uma recomendação natural para quem quer ir mais rápido."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "E-mail de Encerramento de Projeto (Offboarding)",
+    "descrição": "Finaliza a relação deixando portas abertas.",
+    "Promt": "Atue como Relacionamento com Cliente. Escreva um e-mail de encerramento de contrato. Agradeça a parceria, entregue os arquivos finais (ou acessos), peça um feedback sincero (link de formulário) e um depoimento se a experiência foi boa. Deixe a porta aberta para projetos futuros."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "E-mail de Notificação de Desvio de Escopo (Change Request)",
+    "descrição": "Script de e-mail profissional e assertivo para notificar o cliente sobre um pedido que excede o escopo original, solicitando aprovação e ajuste de orçamento/cronograma.",
+    "Promt": "Atue como um Consultor de Relacionamento e Gestão Contratual. Elabore um e-mail modelo para ser enviado a um cliente que solicitou [Descrição da Tarefa que Gera Desvio de Escopo: ex. 5 posts adicionais não previstos no contrato]. O e-mail deve ser diplomático, referenciar o escopo original, quantificar o impacto (em tempo e custo) e solicitar uma aprovação formal para o Change Request (Pedido de Mudança), com as opções de: (A) Prosseguir com o custo adicional, ou (B) Priorizar dentro do escopo atual."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "E-mail de Nutrição (Pós-Download)",
+    "descrição": "E-mail automático para enviar a quem baixou uma isca digital, entregando o material e iniciando o relacionamento.",
+    "Promt": "Escreva um e-mail curto para quem acabou de se cadastrar para baixar meu [NOME DO EBOOK]. Assunto: Seu material chegou! Corpo: Entregue o link, parabenize pela decisão de estudar o tema e faça uma pergunta aberta no final para incentivar a pessoa a responder o e-mail (o que melhora a entregabilidade)."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "E-mail de Onboarding de Cliente",
+    "descrição": "Mensagem de boas-vindas que organiza a casa.",
+    "Promt": "Atue como Customer Success. Escreva um e-mail de boas-vindas para um novo cliente da agência. O e-mail deve conter: Link para a pasta do Drive, Link para o grupo de WhatsApp/Slack, Solicitação de acesso às redes sociais (Login/Senha) e data da primeira entrega."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "E-mail de Recuperação de Carrinho",
+    "descrição": "Resgata vendas perdidas no checkout.",
+    "Promt": "Atue como Redator de Conversão. Escreva um e-mail automático para ser enviado 1 hora após o abandono de carrinho de [PRODUTO]. O tom deve ser de serviço ('Houve algum erro?') e não de cobrança. Inclua um depoimento curto no final para reforçar a decisão."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "E-mail de Upsell (Venda na Base)",
+    "descrição": "Oferece novos serviços para clientes atuais.",
+    "Promt": "Atue como Gerente de Contas. Escreva um e-mail para um cliente que já faz Social Media, oferecendo o serviço de Tráfego Pago. Use o argumento de que o conteúdo está bom (orgânico), mas precisa de alcance pago para gerar vendas reais. Proposta de teste piloto."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "E-mail de Última Chamada (Escassez Real)",
+    "descrição": "Aviso final antes de encerrar a oferta.",
+    "Promt": "Atue como Copywriter. Escreva um e-mail curto e urgente para ser enviado faltam 2 horas para fechar as inscrições/promoção de [PRODUTO]. Use o gatilho da Perda (FOMO). Lembre o que a pessoa perde se não agir agora. Assunto: 'Vai acabar (sério)'."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Empilhamento de Bônus (Offer Stacking)",
+    "descrição": "Aumenta o valor percebido da oferta.",
+    "Promt": "Atue como Criador de Ofertas. Para vender o produto principal [PRODUTO], sugira 3 bônus digitais complementares que resolvam problemas novos criados pela compra. Para cada bônus, atribua um valor monetário (Preço âncora) e descreva o benefício exclusivo."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Escala de Campanha (Vertical/Horizontal)",
+    "descrição": "Como aumentar o investimento sem perder o ROI.",
+    "Promt": "Atue como Gestor de Tráfego Sênior. Minha campanha de [PRODUTO] está com ROI positivo. Descreva um plano de escala: Como aumentar o orçamento (20% a cada X dias?) e como escalar horizontalmente (novos públicos). Quais cuidados tomar para não saturar?"
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Estratégia de Backlinks (Broken Link)",
+    "descrição": "Técnica para conseguir links avisando sobre erros.",
+    "Promt": "Atue como Link Builder. Explique como executar a estratégia de 'Broken Link Building' para o nicho de [NICHO]. Como encontrar sites com links quebrados, como verificar se o link era relevante e qual script de e-mail enviar para o dono do site sugerindo meu conteúdo como substituto."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Estratégia de Hashtags",
+    "descrição": "Seleciona tags para aumentar o alcance.",
+    "Promt": "Atue como Especialista em SEO de Social Media. Crie 3 grupos de hashtags para o perfil de [NICHO]. Grupo 1: Hashtags de Nicho (específicas). Grupo 2: Hashtags de Localização/Comunidade. Grupo 3: Hashtags do problema/dor. Explique como alternar entre elas."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Estratégia de Hashtags por Funil",
+    "descrição": "Segmentar hashtags relevantes para a marca de acordo com o funil de marketing (Topo, Meio, Fundo), otimizando a descoberta e conversão.",
+    "Promt": "Atue como um Especialista em Descoberta Orgânica. Para a marca [Nome da Marca] que atua no nicho de [Nicho de Mercado], gere 3 listas de 10 hashtags cada, segmentadas por Funil: (1) Topo de Funil (alcance amplo/descoberta), (2) Meio de Funil (engajamento/interesse) e (3) Fundo de Funil (intenção de compra/nicho). As hashtags devem ser relevantes e ter volume moderado a alto. Entregue em 3 listas separadas."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Estratégia de Lance (Bidding) por Funil",
+    "descrição": "Definir a estratégia de lances (manual, automático, ROAS, CPA) ideal para cada etapa da jornada de compra em campanhas de performance.",
+    "Promt": "Atue como um Consultor Sênior de Performance (PPC). Para uma campanha completa no Meta Ads (Facebook/Instagram) vendendo [Tipo de Produto/Serviço] com um orçamento de [Valor do Orçamento], defina a estratégia de lances (Bidding Strategy) recomendada para cada etapa do funil: (1) Reconhecimento/Abertura, (2) Consideração/Interesse e (3) Conversão/Vendas. Justifique a escolha de lance para cada etapa (ex: Custo por Resultado vs. Maior Volume). Entregue em formato de tabela comparativa."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Estratégia de Links Internos",
+    "descrição": "Mantém o usuário no site e distribui autoridade.",
+    "Promt": "Atue como Arquiteto de Informação. Estou escrevendo um artigo sobre [NOVO POST]. Sugira 3 tópicos de artigos antigos que eu provavelmente já tenho no blog (baseado no nicho [NICHO]) para linkar dentro deste novo texto. Escreva o texto âncora ideal para cada link."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Estratégia de Lookalike (Semelhantes)",
+    "descrição": "Define as melhores fontes para criar públicos semelhantes.",
+    "Promt": "Atue como Estrategista. Para escalar as vendas de [PRODUTO], quais são os 3 melhores públicos base (Source Audiences) para criar Lookalikes? (Ex: Lista de clientes, Initiated Checkout, Engajamento). Explique a hierarquia de valor de cada um."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Estratégia de Topic Cluster",
+    "descrição": "Organiza o conteúdo em torno de um pilar para autoridade.",
+    "Promt": "Atue como Estrategista de SEO. Crie um Topic Cluster para o tema central (Pilar) [TEMA PILAR]. Defina: 1) O título do Guia Completo (Pilar Page), 2) 6 subtemas (Cluster Content) que linkam para o pilar, cobrindo dúvidas específicas. Explique a estrutura de linkagem interna entre eles."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Estratégia para Black Friday/Sazonal",
+    "descrição": "Campanhas de alta intensidade para datas especiais.",
+    "Promt": "Atue como Estrategista de Vendas. Crie um cronograma de anúncios para uma campanha de Black Friday. Fase 1: Captura de Leads (Lista VIP). Fase 2: Aquecimento e Revelação de Spoiler. Fase 3: Abertura do Carrinho (Ads de Urgência). Fase 4: Últimas Horas."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Estratégia para E-commerce (Catálogo)",
+    "descrição": "Planejamento para vendas de múltiplos produtos.",
+    "Promt": "Atue como Especialista em E-commerce. Descreva uma estratégia de funil para uma loja de [NICHO]. Topo: Carrossel de Categoria. Meio: DPA (Anúncio Dinâmico de Produtos vistos). Fundo: Cupom de recuperação de carrinho. Detalhe a exclusão de públicos em cada etapa."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Estrutura de Campanha para Negócio Local",
+    "descrição": "Planeja anúncios geo-localizados para atrair clientes físicos.",
+    "Promt": "Atue como Gestor de Tráfego Local. Desenvolva uma estrutura de campanha no Meta Ads para [TIPO DE NEGÓCIO] na cidade de [CIDADE]. Defina: 1) Raio de alcance (km), 2) Segmentação de idade/gênero, 3) Oferta de entrada (isca), 4) Objetivo da campanha (Mensagem ou Rota)."
+  },
+  {
+    "nome": "Estrutura de Carrossel para Instagram (Educação + Venda)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Transforma uma ideia central em um carrossel completo, com narrativa envolvente e CTA final.",
+    "Promt": "Quero criar um carrossel para falar sobre: [INSERIR TEMA PRINCIPAL].\nMeu público é [DESCREVER PÚBLICO: nível de conhecimento, dúvidas comuns, objetivo].\nO objetivo desse carrossel é [EDUCAR, QUEBRAR OBJEÇÕES, VENDER, GERAR LEADS etc.].\nCrie uma estrutura com, no mínimo, 7 slides: capa, desenvolvimento do conteúdo e CTA final.\nPara cada slide, entregue: título, texto curto (até 3 linhas), ideia visual e sugestão de cor/destaque.\nMantenha uma narrativa que prenda a atenção, começando pela dor ou problema e caminhando para a solução.\nInclua uma sugestão de CTA forte no último slide, direcionando para [INSERIR AÇÃO: direct, link na bio, comentário].\nNo final, sugira uma legenda enxuta com CTA e 5 ideias de hashtags estratégicas."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Estrutura de VSL (Carta de Vendas em Vídeo)",
+    "descrição": "Esqueleto argumentativo para vídeos longos de venda.",
+    "Promt": "Atue como Copywriter Sênior. Crie a estrutura de tópicos para uma VSL de 10 minutos vendendo [PRODUTO]. Siga a ordem: 1) A Grande Promessa, 2) A História de Origem (conexão), 3) A Nova Descoberta (Mecanismo Único), 4) A Oferta Irresistível, 5) Garantia e Fechamento. Detalhe o objetivo emocional de cada bloco."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Estrutura de VSL (Vídeo de Vendas)",
+    "descrição": "Um esqueleto completo para roteirizar um Vídeo de Vendas (Video Sales Letter) de alta conversão, dividido em blocos lógicos.",
+    "Promt": "Preciso escrever uma VSL (Video Sales Letter) para [INSERIR NICHO]. Me forneça apenas a ESTRUTURA do roteiro, dividida em etapas, com uma breve explicação do que devo escrever em cada uma. A estrutura deve conter: 1) A Grande Promessa, 2) O Problema e a Agitação, 3) A Causa Única do problema, 4) O Mecanismo Único da solução, 5) A Oferta e 6) A Garantia e CTA."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Estudo de Caso Narrativo",
+    "descrição": "Transforma um depoimento chato em uma história de herói.",
+    "Promt": "Atue como Jornalista de Marca. Tenho um cliente que teve o resultado [RESULTADO] com meu produto. Escreva um Estudo de Caso contando a história dele no formato 'Antes, Durante e Depois'. Foque nas emoções que ele sentia antes (frustração) e como se sente agora (alívio/sucesso)."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Extensões de Anúncio Google",
+    "descrição": "Melhora a visibilidade e CTR no Google.",
+    "Promt": "Atue como Consultor Google Ads. Sugira textos para as Extensões de Sitelink (4 links extras) e Extensões de Frase de Destaque (Callouts) para a campanha de [EMPRESA]. Os links devem levar para páginas estratégicas (Quem somos, Depoimentos, Contato)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "FAQ Inteligente (Quebra de Objeção)",
+    "descrição": "Usa as perguntas frequentes para vender, não só informar.",
+    "Promt": "Atue como Vendedor. Reescreva a seção de FAQ para [PRODUTO]. Em vez de respostas técnicas secas, use cada resposta para reafirmar a facilidade, a garantia ou o resultado. Inclua perguntas como 'E se eu não tiver tempo?' e 'Funciona para iniciantes?'."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Feedback para Funcionário (1:1)",
+    "descrição": "Conversa difícil ou elogiosa com a equipe.",
+    "Promt": "Atue como Líder de RH. Escreva um roteiro para uma reunião de feedback 1:1 com um colaborador que está entregando com qualidade, mas sempre com atraso. Use a técnica SCI: Situação (quando aconteceu), Comportamento (o que ele fez) e Impacto (como isso afetou o time/cliente)."
+  },
+  {
+    "nome": "Figma: Componentes e Variantes (Produtividade)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Como ganhar tempo criando botões e elementos que se repetem.",
+    "Promt": "Explique para um iniciante no Figma como funcionam os 'Components' e 'Variants'. Como posso criar um 'Botão Mestre' que, se eu mudar a cor dele, muda em todos os 10 slides do meu carrossel automaticamente? Passo a passo simples."
+  },
+  {
+    "nome": "Figma: Efeito Glassmorphism (Vidro)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Como criar o efeito de vidro fosco moderno em cards e interfaces.",
+    "Promt": "Como crio o efeito de Glassmorphism (Vidro Fosco) no Figma? Me dê as configurações de: 1) Fill (Opacidade), 2) Background Blur (Valor), 3) Stroke (Borda) e 4) Drop Shadow para que o card pareça um vidro flutuando sobre um fundo colorido."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Figma: Grid e Alinhamento para Carrossel",
+    "descrição": "Instruções para configurar o arquivo do Figma para criar carrosséis contínuos perfeitos.",
+    "Promt": "Atue como um especialista em Figma. Me dê o passo a passo para configurar um arquivo para um Carrossel Infinito de 7 slides (1080x1350). 1) Qual o tamanho total do Frame? 2) Como configuro as guias (Rulers) para saber onde termina cada slide? 3) Como exportar fatiado automaticamente? Explique o uso de 'Slices' ou Plugins."
+  },
+  {
+    "nome": "Figma: Máscaras e Recortes Criativos",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Como colocar fotos dentro de formas orgânicas ou letras.",
+    "Promt": "Como uso 'Masks' (Máscaras) no Figma para colocar uma foto dentro de um texto ou de uma forma orgânica (blob)? O passo a passo dos atalhos e a ordem das camadas (quem fica em cima, a foto ou a forma?)."
+  },
+  {
+    "nome": "Figma: Plugins Essenciais para Social Media",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Lista de ferramentas extras para instalar no Figma.",
+    "Promt": "Liste 5 Plugins gratuitos do Figma que todo Social Media deveria instalar para ganhar tempo. Inclua plugins para: Remover fundo (Remove BG), Banco de Imagens (Unsplash), Ícones (Iconify) e distorção de texto."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Formulário de Briefing Inicial",
+    "descrição": "Perguntas essenciais para começar um projeto.",
+    "Promt": "Atue como Estrategista. Crie 10 perguntas essenciais para um formulário de briefing de criação de Site/Landing Page. Perguntas devem cobrir: Objetivo do site, Referências visuais (o que gosta e odeia), Conteúdo disponível, Prazo e Orçamento."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Framework de Delegação Eficaz (Task Card)",
+    "descrição": "Estruturar um formato de cartão de tarefa ideal para delegação, garantindo que o freelancer/colaborador tenha todas as informações necessárias.",
+    "Promt": "Atue como um Otimizador de Produtividade e Delegação. Crie um template de 'Cartão de Tarefa' ideal para delegar trabalho a um membro da equipe (designer, copywriter, freelancer). O template deve incluir os campos obrigatórios: (1) Título Claro, (2) Objetivo Principal (O porquê), (3) Deliverable (O que deve ser entregue), (4) Contexto/Briefing Necessário (Links/Referências), (5) Prazo (Data e Hora), (6) Critérios de Sucesso (Checklist de QA) e (7) Responsável pela Aprovação."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Framework PAS (Problema-Agitação-Solução)",
+    "descrição": "Fórmula clássica para posts curtos e anúncios.",
+    "Promt": "Atue como Copywriter. Escreva um texto curto sobre [DOR DO CLIENTE] usando o Framework PAS. 1) Defina o Problema claramente. 2) Agite (coloque o dedo na ferida, mostre o custo emocional). 3) Apresente a Solução [PRODUTO] como o único alívio lógico."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Gamificação de Conteúdo",
+    "descrição": "Posts interativos para explodir comentários.",
+    "Promt": "Atue como Gamification Expert. Crie uma ideia de post interativo ('Desafio' ou 'Quiz') para o nicho [NICHO]. O objetivo é fazer as pessoas comentarem a resposta correta ou marcarem um amigo. Descreva a imagem e a regra do jogo."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Gerador de Bullet Points para Oferta Irresistível",
+    "descrição": "Criar pontos de atração para uma oferta, focando em transformar funcionalidades em resultados tangíveis.",
+    "Promt": "Atue como um Otimizador de Ofertas. Para o produto digital [Nome do Produto] com a principal funcionalidade [Funcionalidade 1] e [Funcionalidade 2], gere 10 bullet points magnéticos. Cada bullet point deve ser formulado para evocar curiosidade e prometer um resultado específico, começando com verbos de ação e evitando jargões técnicos. Foque no formato 'O que você vai conseguir, sem o que você odeia'."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Gerador de Headlines (Ganchos)",
+    "descrição": "Cria títulos impossíveis de ignorar.",
+    "Promt": "Atue como Copywriter. Crie 10 opções de Headlines para um post sobre [TEMA]. Utilize gatilhos de: Curiosidade, Negatividade (erros), Facilidade e Autoridade. Ex: 'Pare de fazer X se quiser Y'."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Gerador de Headlines para Google Ads",
+    "descrição": "Cria 15 opções de títulos curtos e impactantes (máximo de 30 caracteres) para campanhas de Rede de Pesquisa, focados em alta taxa de cliques (CTR).",
+    "Promt": "Atue como um especialista em Google Ads. O meu produto/serviço é [INSERIR PRODUTO]. Preciso de 15 ideias de Títulos (Headlines) para a Rede de Pesquisa. Devem ter no máximo 30 caracteres cada. Use gatilhos como: Urgência, Autoridade, Preço/Oferta e Prova Social. As opções devem ser variadas para eu testar qual performa melhor."
+  },
+  {
+    "nome": "Gerador de Hooks (Ganchos) Virais",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Desenvolve 10 opções de frases de início (ganchos) projetadas para impedir o 'scroll' do usuário no Instagram e TikTok.\nFocado em psicologia da curiosidade, urgência e identificação imediata.",
+    "Promt": "Eu tenho um conteúdo sobre [INSERIR TEMA DO VÍDEO]. Aja como um especialista em retenção do TikTok e Instagram. Escreva 10 opções de 'Hooks' (frases iniciais de 3 segundos) que sejam impossíveis de ignorar. Use gatilhos de curiosidade, polêmica leve ou promessa de benefício imediato. Liste do mais agressivo para o mais sutil."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Gerador de Ideias para Teste A/B",
+    "descrição": "Sugere ângulos criativos diferentes para testar em campanhas, ajudando a encontrar novos caminhos quando os anúncios atuais saturam.",
+    "Promt": "Minha campanha de [PRODUTO] está com o custo por lead subindo. Preciso de 5 novas ideias de 'Ângulos Criativos' (Big Ideas) para testar em novos anúncios. O ângulo atual é [DESCREVER O ATUAL]. Sugira ângulos opostos ou complementares (ex: focar no medo de perder vs. desejo de ganhar; focar na lógica vs. emoção)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Gerador de Paleta de Cores (Psicologia)",
+    "descrição": "Sugere combinações de cores baseadas na psicologia das cores e na emoção que a marca deseja transmitir.",
+    "Promt": "Atue como um especialista em Branding. Estou criando a identidade visual para uma marca de [NICHO] que quer transmitir [EMOÇÕES DESEJADAS, ex: confiança, luxo, energia]. Sugira 3 opções de paletas de cores (com códigos HEX aproximados). Para cada paleta, explique brevemente por que essas cores funcionam para esse objetivo psicológico."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Gerador de Prompt para Banco de Imagem Abstrato",
+    "descrição": "Cria prompts para gerar fundos (backgrounds) abstratos e texturas em IAs de imagem, úteis para compor designs.",
+    "Promt": "Escreva um prompt para o Midjourney gerar um background abstrato para usar em posts de social media. O estilo deve ser [ESTILO, ex: gradiente fluido, geométrico 3D, textura de papel]. As cores predominantes devem ser [CORES]. A imagem deve ser limpa o suficiente para eu escrever texto por cima sem perder a leitura."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Gerador de Títulos (Title Tag)",
+    "descrição": "Títulos otimizados que aparecem na aba do navegador e Google.",
+    "Promt": "Atue como Especialista em Titles. Crie 10 variações de Title Tag para um post sobre [TEMA]. As variações devem ter no máximo 60 caracteres e usar modelos como: Lista ('7 dicas para...'), Como fazer ('Como criar...'), Pergunta ('O que é...?') e Guia ('O Guia Completo de...')."
+  },
+  {
+    "nome": "Gerador de Títulos para Isca Digital (E-book/Aula)",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Cria nomes magnéticos para materiais ricos (Lead Magnets) que aumentam a taxa de cadastro em campanhas de tráfego.",
+    "Promt": "Quero criar um E-book gratuito para atrair leads interessados em [ASSUNTO]. Crie 10 sugestões de títulos irresistíveis para esse material. Use modelos como 'O Guia Definitivo', 'X Passos para...', 'O Segredo de...', e títulos que prometam resolver uma dor específica rapidamente."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Gestão de Comunidade: Respostas a Haters",
+    "descrição": "Scripts para lidar com críticas mantendo a classe.",
+    "Promt": "Atue como Gestor de Crise. Crie 3 modelos de resposta para comentários negativos/haters no post sobre [TEMA]. Objetivo: Desarmar o agressor, mostrar profissionalismo para a audiência e retirar a discussão do público (levar para DM)."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Gestão de Comunidade: Script de DM (Vendas)",
+    "descrição": "Conduz uma conversa no direct para o fechamento.",
+    "Promt": "Atue como Closer. Crie um fluxo de script para Direct Message. O cliente respondeu 'Eu quero' no story. 1) Saudação + Pergunta de qualificação, 2) Apresentação da solução baseada na resposta, 3) Link de pagamento/agendamento."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Gestão de Crise (Pedido de Desculpas)",
+    "descrição": "Texto para comunicar um erro (atraso em post, erro de digitação, problema técnico) ao cliente ou público, mantendo o profissionalismo.",
+    "Promt": "Cometi um erro com o cliente [DESCREVER ERRO, ex: postei a arte errada/atrasei a entrega]. Escreva uma mensagem de desculpas profissional. Assuma a responsabilidade (sem dar desculpas esfarrapadas), explique brevemente o que aconteceu e, o mais importante, diga o que já estou fazendo para corrigir e evitar que aconteça de novo."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Gestão de Crise: Atraso na Entrega",
+    "descrição": "Comunicação diplomática para lidar com imprevistos.",
+    "Promt": "Atue como Gerente de Contas. Escreva um e-mail profissional informando ao cliente que a entrega prevista para amanhã sofrerá um atraso de 48h. Motivo: Problema técnico inesperado. Estrutura: Notícia direta -> Motivo transparente -> Nova data garantida -> O que estamos fazendo para resolver."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Gestão de Pautas (Backlog)",
+    "descrição": "Como organizar ideias que ainda não têm data.",
+    "Promt": "Atue como Product Owner. Explique como organizar um 'Backlog de Ideias' no Trello. Crie colunas para: 'Ideias Brutas', 'Para Validar', 'Aprovadas para Produção' e 'Congeladas'. Defina quais informações mínimas uma ideia precisa ter para entrar no quadro."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Gestão de Senhas (Segurança)",
+    "descrição": "Protocolo para compartilhar acessos.",
+    "Promt": "Atue como CISO (Chefe de Segurança). Escreva um protocolo de segurança para o time compartilhar senhas de clientes. Regra 1: Nunca enviar senha por WhatsApp (texto plano). Regra 2: Usar gerenciadores como LastPass/1Password. Regra 3: Troca obrigatória ao fim do contrato."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Glossário de Termos da Agência",
+    "descrição": "Alinha a comunicação interna e com clientes.",
+    "Promt": "Atue como Comunicador Interno. Crie uma lista com definição simples de 5 termos que usamos todo dia, para enviar no manual do novo funcionário. Termos: Briefing, Deadline, Job, Refação e Assets."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Grid do Instagram (Mosaico/Padrão)",
+    "descrição": "Planejamento da estética geral do perfil.",
+    "Promt": "Atue como Estrategista Visual. Sugira um padrão de organização para o feed do Instagram de [PERFIL] (ex: Xadrez, Linha a Linha, Arco-íris). Explique como alternar fotos de pessoas, frases e fotos de produto para o feed não ficar poluído ou monótono."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Guest Post Outreach (Backlinks)",
+    "descrição": "E-mail para pedir para escrever no blog de parceiros.",
+    "Promt": "Atue como Link Builder. Escreva um modelo de e-mail para propor um Guest Post (artigo convidado) para um site parceiro do nicho [NICHO]. O e-mail deve ser personalizado, elogiar um conteúdo recente deles e sugerir 3 temas de artigos que você pode escrever de graça em troca de um link."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Headlines para Google Search",
+    "descrição": "Gera títulos de alta relevância para anúncios de pesquisa.",
+    "Promt": "Atue como Especialista em Google Ads. Crie 15 variações de Títulos (max 30 caracteres) para a palavra-chave [INSERIR PALAVRA-CHAVE]. Inclua gatilhos de Urgência, Exclusividade, Preço e Autoridade. O objetivo é maximizar o CTR."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Headlines para Página de Vendas (LP)",
+    "descrição": "Títulos que seguram o visitante na página.",
+    "Promt": "Atue como Especialista em CRO. Crie 5 variações de Headline (H1) e Subheadline (H2) para a página de vendas de [PRODUTO]. A promessa deve ser forte, específica e temporal. Ex: 'Conquiste [RESULTADO] em [TEMPO] sem [DOR]'."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Hierarquia Visual em Texto",
+    "descrição": "Como diagramar textos para não ficarem chatos.",
+    "Promt": "Atue como Designer Editorial. Tenho este parágrafo de texto: [INSERIR TEXTO]. Explique como diagramá-lo em um post do Instagram para melhorar a leitura. O que deve ser Título (H1), o que deve ser destaque (Negrito/Cor diferente) e o que pode ser texto menor?"
+  },
+  {
+    "nome": "Ideação de Conteúdo 'Topo de Funil' (Viral)",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Focado em atrair novos seguidores. Gera ideias de conteúdo amplo que tenham alto potencial de compartilhamento no nicho.\nO objetivo é alcançar pessoas que ainda não conhecem a marca, mas têm interesse no tema geral.",
+    "Promt": "Meu nicho é [INSERIR NICHO]. Preciso de 10 ideias de conteúdo 'Topo de Funil' (atração). O objetivo é viralizar e alcançar pessoas que ainda não me conhecem. Foque em: Mitos do mercado, Erros comuns que iniciantes cometem, Listas de ferramentas ou Dicas rápidas 'hack'. Para cada ideia, sugira um título chamativo."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Ideias de Adereços para Fotos de Produto",
+    "descrição": "Sugere objetos de cena (props) baratos e fáceis de encontrar para compor fotos de produtos em casa ou escritório.",
+    "Promt": "Preciso tirar fotos profissionais do meu produto [NOME DO PRODUTO] usando apenas o celular e luz natural. Sugira 10 objetos de cena (props) baratos ou itens domésticos que eu posso usar para compor o cenário e deixar a foto mais estética e contextualizada. O estilo da foto deve ser [ESTILO]."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Ideias para Lives",
+    "descrição": "Planeja transmissões ao vivo engajadoras.",
+    "Promt": "Atue como Produtor de Conteúdo. Sugira 3 temas para Lives de 30 minutos focadas em venda de [PRODUTO]. Para cada tema, defina: 1) Título chamativo, 2) Tópicos principais, 3) Oferta exclusiva para quem estiver ao vivo."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Introdução Perfeita (Gancho de SEO)",
+    "descrição": "Segura o leitor e confirma que ele está no lugar certo.",
+    "Promt": "Atue como Redator. Escreva a introdução de um artigo sobre [PALAVRA-CHAVE]. Use a fórmula APP (Agree, Promise, Preview). 1) Concorde com a dor do leitor. 2) Prometa que existe uma solução. 3) Dê uma prévia do que ele vai aprender no texto."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Layout de Landing Page (Hero Section)",
+    "descrição": "Estrutura visual da primeira dobra do site.",
+    "Promt": "Atue como UI Designer. Descreva o layout da 'Hero Section' (primeira dobra) de uma Landing Page para [PRODUTO]. Defina: Onde fica a Headline (esquerda/centro?), qual a imagem de apoio (produto ou pessoa sorrindo?), cor do botão de CTA e elementos de prova social visíveis sem rolar a tela."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Legenda: Método AIDA",
+    "descrição": "Escreve legendas que prendem a atenção e convertem.",
+    "Promt": "Atue como Copywriter. Escreva uma legenda para uma foto de [DESCREVER IMAGEM] usando o método AIDA (Atenção, Interesse, Desejo, Ação). O tema é [INSERIR TEMA]. Tom de voz: [INSERIR TOM]."
+  },
+  {
+    "nome": "Linha Editorial para Instagram/TikTok",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Define pilares de conteúdo, tom de voz e tipos de posts para fortalecer a marca.",
+    "Promt": "Sou [INSERIR PROFISSÃO/NICHO] e meu perfil/rede é [DESCREVER BREVE CONTEXTO].\nQuero construir uma linha editorial clara para [INSERIR REDE: Instagram, TikTok ou ambas].\nMeu objetivo é [AUMENTAR AUTORIDADE, VENDER, GERAR COMUNIDADE, ATRAIR OPORTUNIDADES].\nDescreva minha persona ideal com base no que eu informar: [INSERIR INFORMAÇÕES SOBRE PÚBLICO].\nCrie 4 a 6 pilares de conteúdo, nomeando cada pilar e explicando o foco dele.\nPara cada pilar, sugira tipos de posts (reels, carrossel, stories, lives) e exemplos de temas específicos.\nDefina também o tom de voz da marca (ex: técnico, didático, informal, bem-humorado, motivacional) e como aplicá-lo nos conteúdos.\nFinalize com um exemplo de semana de postagens já distribuída entre os pilares."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Lista de Palavras-Chave Negativas",
+    "descrição": "Economiza dinheiro bloqueando buscas irrelevantes.",
+    "Promt": "Atue como Gestor de Google Ads. Gere uma lista de 30 palavras-chave negativas para uma campanha de [SERVIÇO/PRODUTO]. Inclua termos que indicam gratuidade, busca de emprego, 'como fazer em casa' ou baixa intenção de compra."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Manual de Marca (Brandbook Resumido)",
+    "descrição": "Regras básicas para não distorcer a marca.",
+    "Promt": "Atue como Diretor de Criação. Escreva o índice e as regras básicas de um Brandbook para [MARCA]. Inclua regras de: Área de respiro do logo, Proibições (não esticar, não mudar cor), Tipografia primária vs secundária e Uso de fotografia (filtros permitidos)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Mapeamento de Palavras-Chave Transacionais",
+    "descrição": "Identificar termos de busca com alta intenção de compra (Fundo de Funil) para otimização de páginas de serviço ou produto.",
+    "Promt": "Atue como um Analista de SEO com foco em Conversão. Para o nicho de [Nicho de Mercado: ex. Software de Gestão Financeira para PMEs], gere 15 palavras-chave transacionais (Fundo de Funil) que indicam alta intenção de compra. As palavras devem conter termos como 'preço', 'melhor', 'comparação', 'alternativa' ou 'comprar'. Para cada termo, sugira o tipo de página que deve ser otimizada (Ex: Landing Page, Página de Preços, Review)."
+  },
+  {
+    "nome": "Matriz de Priorização (Eisenhower para Social)",
+    "categoria_ref": "Gestão & Operações",
+    "descrição": "Ajuda a organizar a lista de tarefas do dia, separando o que é urgente do que é importante.",
+    "Promt": "Tenho a seguinte lista de tarefas hoje: [LISTAR TAREFAS, ex: responder direct, criar arte, reunião, estudar]. Organize essas tarefas na Matriz de Eisenhower: 1) Fazer Agora (Urgente e Importante). 2) Agendar (Importante, não urgente). 3) Delegar (Urgente, não importante). 4) Eliminar (Nem urgente, nem importante). Justifique a prioridade."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Matriz de Priorização (Eisenhower)",
+    "descrição": "Decide o que fazer agora e o que deixar para depois.",
+    "Promt": "Atue como Gerente de Produtividade. Tenho as seguintes tarefas: [LISTAR TAREFAS]. Classifique-as na Matriz de Eisenhower: 1) Urgente e Importante (Fazer agora), 2) Importante e Não Urgente (Agendar), 3) Urgente e Não Importante (Delegar), 4) Nem Urgente Nem Importante (Eliminar)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Matriz de Quebra de Objeções",
+    "descrição": "Argumentos prontos para derrubar barreiras de compra.",
+    "Promt": "Atue como Closer de Vendas. Liste as 5 maiores objeções universais (Dinheiro, Tempo, Confiança, 'Não é pra mim', Cônjuge) aplicadas ao produto [PRODUTO]. Para cada uma, escreva um parágrafo de refutação usando lógica e prova social."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Matriz de Segmentação de Audiência Excludente",
+    "descrição": "Criar listas de exclusão de público para campanhas de Ads, otimizando o orçamento e evitando a fadiga de anúncios.",
+    "Promt": "Atue como um Gestor de Tráfego especialista em otimização de orçamento. Para a campanha de [Nome da Campanha/Objetivo] que tem como público-alvo [Descrição do Público Principal], identifique 5 grupos de audiência que devem ser EXCLUÍDOS para maximizar a eficiência e evitar desperdício de verba. Exemplos de exclusão: (1) Clientes Recentes (últimos 7 dias), (2) Funcionários/Parceiros, (3) Usuários que já viram o anúncio mais de 3 vezes nos últimos 30 dias. Apresente a lista e a lógica de exclusão para cada grupo."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Matriz de Teste A/B",
+    "descrição": "Planeja experimentos científicos para melhorar resultados.",
+    "Promt": "Atue como Cientista de Dados. Planeje um Teste A/B para a campanha de [OBJETIVO]. Defina qual variável única será testada (ex: Headline, Criativo ou Público), qual o orçamento necessário para ter relevância estatística e qual métrica definirá o vencedor."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Mecanismo Único (Unique Mechanism)",
+    "descrição": "O 'segredo' que torna seu produto diferente.",
+    "Promt": "Atue como Estrategista de Marketing. Ajude-me a nomear e descrever o 'Mecanismo Único' do meu produto [PRODUTO]. Qual é a parte técnica/método exclusivo que faz ele funcionar? Dê um nome proprietário (ex: 'Sistema X') e explique em 2 frases como ele age diferente das soluções comuns."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Mockups de Produto",
+    "descrição": "Cenas realistas para aplicar a arte do produto.",
+    "Promt": "Atue como Designer 3D. Sugira 3 cenários para aplicar o mockup do produto [PRODUTO] e torná-lo desejável. Exemplo: Se é um café, cenário 'Mesa de manhã com sol entrando e laptop'. Descreva a iluminação e os objetos de composição para cada cenário."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Modelo de Relatório Mensal (Report)",
+    "descrição": "Apresenta resultados de forma que justifica o valor pago.",
+    "Promt": "Atue como Analista de Dados. Crie a estrutura de texto para um relatório mensal de performance. Seções: 1) Resumo Executivo (O que fizemos), 2) Destaques do Mês (O que performou melhor), 3) Análise de KPIs (Meta vs Realizado), 4) Aprendizados (O que deu errado e porquê), 5) Plano de Ação para o próximo mês."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Monitoramento de Palavras-chave",
+    "descrição": "Acompanhamento de ranking e performance.",
+    "Promt": "Atue como Analista de SEO. Crie uma planilha/checklist de quais KPIs de SEO devo monitorar semanalmente e mensalmente. (Ex: Posição média, CTR orgânico, Novos domínios de referência, Páginas com erro 404). Explique a importância de cada um."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Moodboard de Fotografia de Produto (Estilo Minimalista)",
+    "descrição": "Criar um guia conceitual para a fotografia de produtos de alto valor, seguindo uma estética minimalista e clean.",
+    "Promt": "Atue como um Diretor de Fotografia de E-commerce de Luxo. Crie um guia conceitual (Moodboard) para sessões de fotos de [Tipo de Produto: ex. Joias/Eletrônicos Premium]. O estilo deve ser Minimalista e Focado na Textura. Descreva (1) Tipos de Fundo (Ex: Concreto cru, Linho), (2) Iluminação (Ex: Natural, Softbox lateral), (3) Adereços de Cena (Props), (4) Ângulos Preferenciais (Close-up, Flat Lay) e (5) Paleta de Cores Dominante (Neutras/Tons Terrosos)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Moodboard de Identidade Visual",
+    "descrição": "Define a direção estética de um novo projeto.",
+    "Promt": "Atue como Brand Designer. Descreva os elementos de um Moodboard para uma marca de [NICHO] com estilo [ESTILO: ex: Minimalista Industrial]. Liste: Texturas sugeridas (ex: cimento, madeira), Estilo fotográfico (ex: desaturado, alto contraste), Elementos gráficos (ex: linhas finas, formas geométricas)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Motion Graphics (Animação)",
+    "descrição": "Ideias de movimento para elementos estáticos.",
+    "Promt": "Atue como Motion Designer. Descreva como animar o logotipo da [EMPRESA] para uma intro de 3 segundos. Descreva a entrada dos elementos (ex: fade in, slide up, elastic bounce) e a saída. O movimento deve combinar com a personalidade da marca."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Naming Convention (Organização)",
+    "descrição": "Padronização de nomes para não se perder no gerenciador.",
+    "Promt": "Atue como Gestor Organizado. Crie um padrão de nomenclatura (Naming Convention) para Campanhas, Conjuntos e Anúncios. Exemplo: [DATA]_[OBJETIVO]_[PRODUTO]_[PÚBLICO]. Isso facilitará a filtragem e análise de dados no futuro."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "O Analista de Concorrência (Análise SWOT)",
+    "descrição": "Realiza uma análise SWOT (Forças, Fraquezas, Oportunidades, Ameaças) de um concorrente, fornecendo insights estratégicos para posicionar melhor a sua própria marca.",
+    "Promt": "Aja como um Analista de Marketing Estratégico. Vou analisar meu concorrente [NOME DO CONCORRENTE OU @INSTAGRAM]. Com base nas informações publicamente disponíveis (site, redes sociais), faça uma análise SWOT. Liste: 1) Forças (o que eles fazem bem?). 2) Fraquezas (onde eles parecem falhar?). 3) Oportunidades (quais brechas de mercado eles não estão aproveitando?). 4) Ameaças (como eles podem prejudicar meu negócio?)."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "O Consultor de Crise (Respostas a Haters)",
+    "descrição": "Gera respostas profissionais, educadas e firmes para comentários negativos ou críticas públicas nas redes sociais.\nBlinda a marca e demonstra maturidade, transformando uma crise potencial em demonstração de bom atendimento.",
+    "Promt": "Aja como um Gerente de Comunidade (Community Manager) experiente. Recebi o seguinte comentário negativo/crítica: [INSERIR COMENTÁRIO]. Escreva 3 opções de resposta. Opção 1: Empática e conciliadora. Opção 2: Profissional e baseada em fatos. Opção 3: Leve e bem-humorada (se a marca permitir). O objetivo é encerrar a discussão publicamente e levar para o direct."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "O Copywriter de E-commerce (Descrição de Produto)",
+    "descrição": "Cria descrições de produtos para lojas virtuais que são otimizadas para SEO e persuasão, focando em benefícios e usando palavras-chave estratégicas.",
+    "Promt": "Escreva uma descrição de produto para e-commerce para [NOME DO PRODUTO]. O público-alvo é [PÚBLICO-ALVO]. A descrição deve ter: 1) Um parágrafo curto e cativante focado no benefício principal. 2) Uma lista de 3 a 5 bullet points com características técnicas traduzidas em vantagens. 3) Um parágrafo final com sugestão de uso e um CTA leve. Inclua as palavras-chave: [LISTA DE 2-3 PALAVRAS-CHAVE SEO]."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "O Copywriter de E-mail (Sequência de Boas-Vindas)",
+    "descrição": "Cria uma sequência de 3 e-mails automáticos para novos assinantes da newsletter, focada em construir relacionamento, entregar valor e apresentar a marca. Essencial para aquecer leads que acabaram de chegar.",
+    "Promt": "Escreva uma sequência de 3 e-mails de boas-vindas para quem se inscreveu na minha newsletter sobre [SEU NICHO]. E-mail 1: Entrega do prometido (se houver) e apresentação pessoal. E-mail 2: Entregar uma dica de alto valor e contar uma pequena história de bastidor. E-mail 3: Fazer uma pergunta para gerar engajamento e segmentar o lead. O tom deve ser [ADJETIVO, ex: especialista, amigável, divertido]."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "O Diretor de Fotografia (Shot List para Reels)",
+    "descrição": "Transforma uma ideia de vídeo em uma lista de planos (shot list) detalhada, garantindo que a gravação seja eficiente e o resultado final, dinâmico. Ideal para filmmakers e social medias que querem elevar a qualidade visual dos seus vídeos.",
+    "Promt": "Atue como um Diretor de Fotografia. Tenho um roteiro para um Reels de 30 segundos sobre [TEMA DO VÍDEO]. O roteiro é: '[COLAR ROTEIRO AQUI]'. Crie uma 'Shot List' (lista de planos) detalhada. Para cada cena do roteiro, especifique: 1) Tipo de Plano (ex: Close-up, Plano Detalhe, Plano Americano), 2) Ângulo da Câmera (ex: Plongée, Contra-plongée, Normal), 3) Movimento da Câmera (ex: Estático, Panorâmica, Travelling)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "O Estrategista de SEO (Pesquisa de Palavras-Chave)",
+    "descrição": "Gera uma lista de palavras-chave e temas para blog posts baseada em uma ideia central, ajudando a criar conteúdo que atrai tráfego orgânico do Google. Ideal para planejar conteúdo de fundo de funil e topo de funil.",
+    "Promt": "Atue como um especialista em SEO Sênior. Meu nicho é [SEU NICHO]. Quero escrever um artigo de blog sobre o tema '[TEMA PRINCIPAL]'. Forneça: 1) 10 variações de palavras-chave de cauda longa (long-tail keywords) sobre o tema. 2) 5 perguntas que os usuários fazem no Google sobre isso (para usar como H2). 3) 3 temas de artigos relacionados para criar um 'topic cluster' (agrupamento de tópicos)."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "O Grande Calendário de 30 Dias",
+    "descrição": "Gera um planejamento mensal completo baseado em pilares de conteúdo estratégicos, alternando entre formatos (Reels, Carrossel, Estático) e objetivos (Venda, Autoridade, Conexão).\nIdeal para garantir consistência sem perder a criatividade ao longo do mês.",
+    "Promt": "Atue como um estrategista de Social Media sênior da Brave Agency. Crie um calendário editorial de 30 dias para o nicho de [INSERIR NICHO]. Os pilares de conteúdo são: [INSERIR PILARES, ex: Educativo, Bastidores, Vendas]. Para cada dia, especifique: 1) O Título do Post, 2) O Formato sugerido (Reels, Carrossel, Imagem Única), 3) O Objetivo (Atração, Nutrição ou Conversão) e 4) Uma breve ideia do visual."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "O Otimizador de Bio (Instagram)",
+    "descrição": "Reescreve a biografia do Instagram para maximizar autoridade e conversão, garantindo que a promessa da marca esteja clara.\nFoca nas 4 linhas essenciais: Quem sou, O que faço, Autoridade e CTA.",
+    "Promt": "Analise o perfil de [INSERIR TIPO DE PROFISSIONAL/EMPRESA]. Crie 5 opções de Biografia para Instagram otimizadas. A bio deve conter: 1) Uma frase de posicionamento clara (o que faz e para quem), 2) Um elemento de autoridade (números ou conquista), 3) Uma Chamada para Ação (CTA) para o link da bio. Use emojis estrategicamente, mas mantenha o tom profissional."
+  },
+  {
+    "nome": "O Prompt Mestre (Otimizador Universal)",
+    "categoria_ref": "Gestão & Operações",
+    "descrição": "Um meta-prompt para melhorar qualquer outro prompt. Use quando não souber exatamente como pedir algo para a IA.",
+    "Promt": "Eu quero que você execute a seguinte tarefa: [DESCREVER TAREFA DE FORMA SIMPLES]. Antes de executar, aja como um engenheiro de prompt e me faça 3 a 5 perguntas para entender melhor o contexto, o objetivo e o formato que eu preciso. Só execute a tarefa depois que eu responder essas perguntas para garantir o melhor resultado possível."
+  },
+  {
+    "nome": "O Reciclador de Conteúdo (LinkedIn & Blog)",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Transforma um conteúdo longo (artigo de blog, vídeo do YouTube) em múltiplos posts curtos e impactantes para o LinkedIn, maximizando o alcance de uma única peça de conteúdo.",
+    "Promt": "Atue como um especialista em conteúdo para LinkedIn. Eu tenho este artigo de blog: '[COLE O LINK OU O TEXTO DO ARTIGO AQUI]'. Transforme-o em 5 posts diferentes para o LinkedIn. Crie: 1) Um post de lista (listicle). 2) Um post contando uma história pessoal relacionada ao tema. 3) Um post com uma dica prática e acionável. 4) Um post polêmico/opinativo. 5) Um post fazendo uma pergunta à sua rede."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "O Roteirista de Storyboard (Visualização de Vídeo)",
+    "descrição": "Converte um roteiro de vídeo em uma descrição visual para um storyboard, descrevendo cada quadro principal. Ajuda a alinhar a visão entre roteirista, videomaker e cliente antes da gravação.",
+    "Promt": "Você é um artista de Storyboard. Eu tenho um roteiro de anúncio: '[COLAR ROTEIRO AQUI]'. Descreva em 5 a 7 quadros-chave como seria o storyboard visual desse anúncio. Para cada quadro, descreva: 1) A composição da cena (personagens, objetos, cenário). 2) O texto ou narração correspondente. 3) Uma anotação de direção (ex: 'Zoom dramático no rosto do ator')."
+  },
+  {
+    "nome": "Oferta Irresistível (Produto/Serviço Digital ou Físico)",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Ajuda a empacotar um produto/serviço em uma oferta mais atrativa e difícil de recusar.",
+    "Promt": "Tenho este produto/serviço: [DESCREVER O QUE É, O QUE ENTREGA E PARA QUEM É].\nSinto que ele ainda não parece irresistível para o meu público.\nMeu público-alvo é [DESCREVER PERSONA, DOR PRINCIPAL E OBJEÇÕES MAIS COMUNS].\nQuero que você me ajude a transformar isso em uma oferta muito mais atrativa.\nSugira: naming da oferta, promessa principal, benefícios em bullets, bônus possíveis, garantias e formas de pagamento interessantes.\nTraga ideias de ancoragem de preço (comparações, antes/depois, custo de não resolver o problema).\nInclua também 3 versões de pitch curto (uma para vídeo, uma para texto e uma para stories).\nAo final, faça um quadro resumo com: nome da oferta, público, promessa, diferenciais, preço sugerido, bônus e CTA."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Organização de Pastas (Drive/Dropbox)",
+    "descrição": "Taxonomia para nunca perder arquivos.",
+    "Promt": "Atue como Arquivista Digital. Crie uma estrutura de pastas padrão para novos clientes da agência. Nível 1: Nome do Cliente. Nível 2: Contratos, Branding (Logo/Manual), Campanhas (por mês/ano), Relatórios, Materiais Brutos, Notas Fiscais."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Otimização de Alt Text (Imagens)",
+    "descrição": "Torna imagens acessíveis e ranqueáveis no Google Imagens.",
+    "Promt": "Atue como Consultor de Acessibilidade Web. Escreva o Texto Alternativo (Alt Text) para 5 imagens que estariam em um artigo sobre [TEMA]. As descrições devem ser literais (o que tem na imagem) e incluir a palavra-chave de forma natural, sem 'keyword stuffing'."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Otimização de Bio (Alta Conversão)",
+    "descrição": "Reformula a biografia para transformar visitantes em seguidores.",
+    "Promt": "Atue como Especialista em Branding. Analise o perfil [INSERIR DESCRIÇÃO DO PERFIL]. Crie 3 opções de Bio contendo: 1) Promessa clara (O que faz), 2) Autoridade (Provas), 3) CTA para o link. Use emojis estratégicos e limite de 150 caracteres."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Otimização de Criativos para Mobile First",
+    "descrição": "Sugestões de ajustes de design em criativos existentes para maximizar a legibilidade e impacto em dispositivos móveis.",
+    "Promt": "Atue como um Especialista em UX/UI Mobile. Analise o criativo/layout de exemplo [Descreva o layout: ex. Carrossel com 5 slides, muito texto e fotos pequenas] e sugira 5 melhorias práticas focadas na experiência Mobile First. As sugestões devem incluir ajustes em: (1) Tamanho da Fonte (mínimo recomendado), (2) Contraste de Fundo/Texto, (3) Posicionamento do CTA visual e (4) Otimização do Espaço Negativo (Respiro)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Otimização de Meta Description",
+    "descrição": "Resumos persuasivos para aumentar o clique no Google (CTR).",
+    "Promt": "Atue como Copywriter de SEO. Escreva 5 opções de Meta Description (até 155 caracteres) para a página https://dicionario.priberam.org/tema-o. A descrição deve conter a palavra-chave principal, um benefício claro e uma chamada para ação (ex: 'Saiba mais', 'Confira')."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Otimização de Perfil (Linktree Estratégico)",
+    "descrição": "Estruturar a página de links (Linktree, etc.) para guiar o tráfego do social media para os objetivos de conversão atuais.",
+    "Promt": "Atue como um Otimizador de Taxa de Conversão (CRO). Para o perfil social [URL do Perfil], cujo objetivo principal é [Objetivo Principal: ex. Venda de Curso X / Captura de Leads], crie uma estrutura ideal para o Linktree. Liste os 5 links mais importantes, a copy exata que deve acompanhar cada link (CTA), e a ordem de prioridade. Inclua uma justificativa para a escolha da prioridade, focando na jornada do usuário."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Otimização de Tempo de Permanência (Dwell Time)",
+    "descrição": "Elementos para fazer o usuário ler até o fim.",
+    "Promt": "Atue como UX Writer. Liste 5 elementos visuais ou textuais para inserir em um artigo longo de texto puro para evitar que o usuário saia rápido (Bounce Rate). Ex: Vídeos embedados, Bullet points, Citações destacadas (Blockquotes), Infográficos resumo."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Otimização para Featured Snippets (Posição 0)",
+    "descrição": "Respostas diretas para aparecer no topo do Google.",
+    "Promt": "Atue como Especialista em Snippets. Escreva um parágrafo de 'Definição' (40-60 palavras) respondendo à pergunta 'O que é [TERMO TÉCNICO]?'. O texto deve ser objetivo e direto ao ponto, ideal para ser capturado pelo Google como Featured Snippet."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Outline de Artigo (Guia Definitivo)",
+    "descrição": "Estrutura completa para posts longos e profundos.",
+    "Promt": "Atue como Redator Sênior. Crie o outline (esqueleto) detalhado para um artigo de 2.000 palavras sobre [TEMA]. Inclua: H1 (Título com palavra-chave), Introdução (Gancho + Tese), H2s (Tópicos principais), H3s (Subtópicos), FAQ final e Conclusão com CTA. Indique onde colocar imagens."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Outline de Artigo (Lista/Listicle)",
+    "descrição": "Formato fácil de ler e compartilhar.",
+    "Promt": "Atue como Redator Buzzfeed. Crie a estrutura para um artigo de lista 'Top 10 Ferramentas para [OBJETIVO]'. Introdução rápida. Para cada item da lista, defina os campos: Nome, Preço, Prós, Contras e 'Melhor para quem'. Conclusão com tabela comparativa."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Outline para Guia Definitivo (Conteúdo Pilar)",
+    "descrição": "Estruturar um artigo extenso e autoritativo (conteúdo pilar) que abrange um tópico central do nicho.",
+    "Promt": "Atue como um Editor-Chefe de Conteúdo. Crie um esboço detalhado (Outline) para um 'Guia Definitivo' sobre [Tópico Central: ex. Marketing de Conteúdo B2B]. O esboço deve ser dividido em 5 a 7 seções principais (H2s) e, sob cada seção, listar pelo menos 3 subtópicos (H3s). O objetivo é cobrir o tópico de maneira exaustiva e se posicionar como autoridade no assunto."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Paleta de Cores Psicológica",
+    "descrição": "Define cores baseadas na emoção que a marca quer passar.",
+    "Promt": "Atue como Especialista em Cores. Crie uma paleta de 4 cores (Principal, Secundária, Acento, Fundo) para um projeto de [TIPO DE PROJETO]. O objetivo emocional é transmitir [EMOÇÃO: ex: Calma, Energia, Luxo]. Forneça os códigos HEX aproximados e o uso sugerido para cada cor."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Pauta de Retrospectiva (Sprint Review)",
+    "descrição": "Melhora o processo aprendendo com o ciclo anterior.",
+    "Promt": "Atue como Líder Ágil. Crie um quadro para uma reunião de Retrospectiva de Fim de Mês. Colunas: 'O que funcionou bem?', 'O que precisamos melhorar?', 'Ações para o próximo ciclo'. Sugira 3 perguntas dinâmicas para quebrar o gelo e fazer o time falar a verdade."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Pautas de Conteúdo Evergreen",
+    "descrição": "Ideias que nunca envelhecem e trazem tráfego constante.",
+    "Promt": "Atue como Estrategista de Conteúdo. Sugira 10 ideias de pautas 'Evergreen' (que não perdem validade) para o nicho de [NICHO]. Foque em problemas fundamentais e guias para iniciantes que as pessoas sempre pesquisarão."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Pesquisa de Palavras-chave (Long-tail)",
+    "descrição": "Descobre termos específicos com menor concorrência e alta conversão.",
+    "Promt": "Atue como Especialista em SEO. Liste 20 palavras-chave de cauda longa (long-tail) relacionadas ao nicho [INSERIR NICHO]. Foque em termos que indiquem que o usuário está próximo da compra (intenção transacional) ou buscando resolver um problema específico. Exclua termos genéricos de alto volume."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Pesquisa de Satisfação (NPS)",
+    "descrição": "Mede a felicidade do cliente.",
+    "Promt": "Atue como Customer Experience. Crie o texto para enviar uma pesquisa de NPS (Net Promoter Score) por e-mail ou WhatsApp. A pergunta chave: 'De 0 a 10, o quanto você indicaria a Brave para um amigo?'. Inclua um campo aberto para 'O que podemos melhorar?'."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Pesquisa de Voz (Voice Search)",
+    "descrição": "Otimiza para assistentes virtuais (Alexa/Siri).",
+    "Promt": "Atue como Especialista em Voice Search. Reescreva o seguinte parágrafo [INSERIR TEXTO] para ser mais conversacional e responder a uma pergunta direta, otimizando para leitura em voz alta por assistentes virtuais (linguagem natural)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Photoshop: Actions (Automação)",
+    "descrição": "Como gravar tarefas repetitivas para fazer em 1 clique.",
+    "Promt": "Como crio uma 'Action' no Photoshop para automatizar um processo que faço todo dia (ex: Redimensionar para 1080x1080 e aplicar marca d'água)? Passo a passo de como gravar (Record) e dar o play."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Photoshop: Efeito de Luz (Glow/Neon)",
+    "descrição": "Criação de ambiência e luzes neon para thumbnails e artes gamers/tech.",
+    "Promt": "Quero criar um efeito de brilho Neon intenso em volta de um objeto no Photoshop. Explique como usar 'Layer Styles' (Outer Glow) combinado com uma camada vazia pintada com Brush suave e modo de mesclagem 'Linear Dodge (Add)' ou 'Screen' para fazer o brilho 'estourar'."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Photoshop: Efeito Duotone (Spotify Style)",
+    "descrição": "Como colorir uma foto com duas cores vibrantes.",
+    "Promt": "Como crio aquele efeito 'Duotone' (estilo Spotify) no Photoshop, onde a foto fica apenas com duas cores (ex: Roxo e Rosa)? Me ensine a usar o 'Gradient Map' (Mapa de Degradê) para mapear as sombras para uma cor e as luzes para outra."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Photoshop: Recorte de Cabelo Complexo",
+    "descrição": "Técnica profissional para remover fundo de fotos com cabelo crespo ou voando.",
+    "Promt": "Atue como um retocador de Photoshop. Tenho uma foto de uma modelo com cabelo crespo e preciso remover o fundo. O 'Select Subject' não ficou bom. Me ensine o passo a passo usando a técnica de 'Select and Mask' (Refine Edge) ou Canais (Channels) para recortar perfeitamente os fios de cabelo."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Photoshop: Tratamento de Pele Natural (Frequency Separation)",
+    "descrição": "Técnica avançada para limpar pele sem deixar parecendo boneca de cera.",
+    "Promt": "Explique o conceito de 'Separação de Frequência' (Frequency Separation) no Photoshop para tratamento de pele. Como separo a Textura (Alta frequência) da Cor/Luz (Baixa frequência) em camadas diferentes para limpar espinhas sem perder os poros da pele?"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Planejador de Layout de Carrossel (Educativo)",
+    "descrição": "Organiza o conteúdo de um carrossel denso em slides fáceis de ler, definindo o que é título e o que é corpo de texto.",
+    "Promt": "Tenho este texto longo sobre [ASSUNTO]: '[COLAR TEXTO]'. Transforme isso em um roteiro para um Carrossel de Instagram de 6 slides. Para cada slide, separe o conteúdo em: 'Título do Slide' (fonte grande) e 'Corpo do texto' (fonte menor). Indique onde devo usar elementos visuais para quebrar o texto e não ficar cansativo."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Planejamento de Lançamento de Feature (Social)",
+    "descrição": "Criar um cronograma de 7 dias para o lançamento de um novo produto ou funcionalidade nas redes sociais, focado em antecipação e prova social.",
+    "Promt": "Atue como um Estrategista de Lançamento. Crie um plano de conteúdo detalhado para uma campanha de lançamento de 7 dias do [Nome do Produto/Feature] da marca [Nome da Marca]. O público-alvo é [Descrição do Público]. O plano deve incluir: 3 dias de teaser (antecipação), 1 dia de lançamento oficial, 3 dias de follow-up (prova social e FAQs). Detalhe o formato (Reels, Carrossel, Stories) e o gancho principal para cada dia. Entregue como um cronograma diário em formato de lista."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Planejamento de Orçamento (Budget)",
+    "descrição": "Distribuição inteligente da verba disponível.",
+    "Promt": "Atue como Planejador de Mídia. Tenho uma verba mensal de R$ [VALOR] para investir em [PLATAFORMA]. Sugira uma divisão percentual entre campanhas de Teste de Público, Teste de Criativo, Escala e Remarketing. Justifique a alocação."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Plano de Contigência (Crise)",
+    "descrição": "O que fazer quando a ferramenta cai ou alguém adoece.",
+    "Promt": "Atue como Gestor de Riscos. Crie um mini plano de contingência para a agência. Cenário 1: O Instagram caiu mundialmente no dia do lançamento. Cenário 2: O designer principal ficou doente na semana de entrega. Descreva a ação imediata para cada caso."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Plano de Mitigação de Risco para Clientes",
+    "descrição": "Identificar riscos comuns em projetos de marketing digital e criar um plano de contingência para mitigá-los.",
+    "Promt": "Atue como um Gerente de Projetos Sênior. Identifique 4 riscos potenciais comuns em projetos de marketing digital de médio a longo prazo (ex: mudança no algoritmo, falta de feedback do cliente, atraso na entrega de materiais, escopo inflacionado). Para cada risco, detalhe (1) a Probabilidade (Baixa/Média/Alta), (2) o Impacto (Baixo/Médio/Alto) e (3) um Plano de Mitigação/Contingência específico para a agência. Entregue em formato de tabela de gestão de riscos."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Plano de Recuperação de Engajamento",
+    "descrição": "Ações de choque para perfis 'mortos'.",
+    "Promt": "Atue como Doutor de Social Media. O perfil está com engajamento zerado. Crie um plano de ação de 7 dias para 'ressuscitar' a conta. Inclua ações de limpeza de seguidores fantasmas, interação ativa e formatos de conteúdo obrigatórios nessa semana."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Polidor de Legendas (Revisor)",
+    "descrição": "Pega uma legenda rascunhada e melhora a gramática, fluidez e formatação, adicionando emojis e espaçamento.",
+    "Promt": "Atue como um revisor de texto experiente. Melhore a seguinte legenda de Instagram: '[COLAR LEGENDA RASCUNHADA]'. Corrija erros gramaticais, melhore a fluidez das frases para ficarem mais dinâmicas, adicione emojis pertinentes (sem exagerar) e quebre o texto em parágrafos curtos para facilitar a leitura no celular."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Post de Bastidores (Humanização)",
+    "descrição": "Mostra o processo por trás da marca para gerar empatia.",
+    "Promt": "Atue como Roteirista. Descreva um post (Vídeo ou Carrossel) mostrando os bastidores da empresa [EMPRESA]. Foco: Mostrar o esforço/carinho envolvido na entrega do produto. Narrativa: 'O que você não vê quando compra X'."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Post de Comparação (Nós vs Eles)",
+    "descrição": "Destaca diferenciais competitivos visualmente.",
+    "Promt": "Atue como Designer e Copywriter. Crie briefing para um post estático ou carrossel comparando 'Métodos Tradicionais' vs 'Nosso Método'. Use tabela visual. Foco em mostrar que o seu método é mais rápido/barato/eficiente."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Post de Data Comemorativa",
+    "descrição": "Conteúdo temático que não seja clichê.",
+    "Promt": "Atue como Criativo. Crie uma ideia de post para o Dia [INSERIR DATA COMEMORATIVA] para uma marca de [NICHO]. Fuja do 'Parabéns'. Crie uma conexão real entre a data e o produto/serviço oferecido."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Post de Prova Social (Depoimento)",
+    "descrição": "Exibe resultados de clientes para aumentar confiança.",
+    "Promt": "Atue como Designer. Crie briefing para um post estático mostrando um print de depoimento de cliente. Descreva: 1) Headline 'O que dizem sobre nós', 2) Onde posicionar o print, 3) Elementos visuais de credibilidade (estrelas, selos). Estilo: Clean."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Post Estático: Frase Impactante (Twitter/Threads)",
+    "descrição": "Post minimalista focado em compartilhamento nos stories.",
+    "Promt": "Atue como Redator. Escreva 5 frases curtas e polêmicas/contrintuitivas sobre [INSERIR NICHO] para serem usadas em formato de 'Tweet' ou fundo sólido. O objetivo é gerar repost."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Prompt de Imagem IA (Abstrato/Fundo)",
+    "descrição": "Gera texturas e fundos para usar em designs.",
+    "Promt": "Atue como Prompt Engineer. Crie um prompt para gerar um background abstrato de alta qualidade para usar em posts de tecnologia. Keywords sugeridas: 'Abstract technology background, neural network lines, dark blue and neon cyan, depth of field, clean, minimalist, 4k render'."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Prompt de Imagem IA (Estilo Fotográfico)",
+    "descrição": "Um prompt técnico para ser usado em IAs geradoras de imagem (Midjourney, Leonardo AI) focado em criar fotos realistas para social media.\nIdeal para criar bancos de imagens próprios sem gastar com stock photos.",
+    "Promt": "Escreva um prompt em INGLÊS para ser usado no Midjourney. Quero uma imagem fotorealista de [DESCREVER CENA, ex: uma pessoa trabalhando em home office feliz]. Detalhes técnicos para incluir no prompt: iluminação cinematográfica, alta resolução, shot em 85mm, profundidade de campo (bokeh), estilo moderno e clean, cores [INSERIR CORES DA MARCA]. Aspect ratio 4:5."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Prompt de Imagem IA (Fotorealismo)",
+    "descrição": "Gera fotos realistas para anúncios ou posts.",
+    "Promt": "Atue como Prompt Engineer (Midjourney v6). Escreva um prompt em inglês detalhado para gerar uma foto de [CENA/SUJEITO]. Detalhe: Iluminação (ex: soft lighting, golden hour), Câmera (ex: Sony A7R IV, 35mm lens), Estilo (ex: photorealistic, 8k, high detail) e Proporção (--ar 4:5)."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Prompt de Imagem IA (Ilustração 3D)",
+    "descrição": "Gera personagens ou objetos 3D estilo Pixar/Disney.",
+    "Promt": "Atue como Artista 3D. Escreva um prompt para IA geradora de imagem criando um personagem/mascote 3D fazendo [AÇÃO]. Estilo: 'Pixar style, 3d render, cute, vibrant colors, octane render, unreal engine 5, smooth textures'. Fundo: [COR/CENÁRIO]. Proporção (--ar 1:1)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Prova Social: Citação de Imprensa",
+    "descrição": "Usa autoridade de mídia para validar o produto.",
+    "Promt": "Atue como PR (Relações Públicas). Escreva um parágrafo para a Landing Page intitulado 'Na Mídia'. Se o produto não saiu na mídia, use citações genéricas de jornais sobre a importância do [MÉTODO/NICHO] para validar a tese, e depois conecte com a sua solução."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Página 'Sobre Mim' (Autoridade)",
+    "descrição": "Vende o expert antes de vender o produto.",
+    "Promt": "Atue como Personal Branding Expert. Escreva o texto para a página 'Quem sou eu' de [NOME DO SPECIALISTA]. O foco não é o currículo, mas a missão. Conecte as experiências passadas do expert com a razão pela qual ele criou o método [MÉTODO]. Termine com um convite."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Qualificação: Pra quem é / Pra quem não é",
+    "descrição": "Filtra os clientes certos e repele os problemáticos.",
+    "Promt": "Atue como Consultor de Vendas. Escreva uma seção para a página de vendas intitulada 'Para quem é este produto' e 'Para quem NÃO é'. Seja específico nos perfis para gerar identificação imediata nos compradores ideais e afastar curiosos sem perfil."
+  },
+  {
+    "nome": "Quebra de Objeções em Anúncios",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Gera variações de copy focadas especificamente em derrubar as principais barreiras de compra do cliente (preço, tempo, confiança).",
+    "Promt": "As 3 principais objeções do meu cliente para não comprar [PRODUTO] são: 1) [OBJEÇÃO 1, ex: Está caro], 2) [OBJEÇÃO 2, ex: Não tenho tempo], 3) [OBJEÇÃO 3, ex: Será que funciona pra mim?]. Escreva 3 parágrafos curtos de anúncio, cada um focado exclusivamente em derrubar uma dessas objeções de forma lógica e empática."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Rebranding (Refresh Visual)",
+    "descrição": "Modernizando uma marca antiga.",
+    "Promt": "Atue como Estrategista de Marca. A marca [NOME] parece antiga e datada (anos 2000). Sugira 3 mudanças visuais pontuais para modernizá-la sem perder a identidade totalmente. (Ex: Simplificar o logo removendo sombras 3D, mudar a fonte serifada para sans-serif geométrica, limpar a paleta)."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Recuperação de Carrinho Abandonado",
+    "descrição": "A última tentativa de converter o quase-cliente.",
+    "Promt": "Atue como Especialista em Retargeting. Crie 3 headlines para anúncios direcionados a quem abandonou o carrinho. 1) 'Foi por causa do preço?' (Oferece desconto). 2) 'Ainda está disponível' (Lembrete simples). 3) 'Dúvidas?' (Link para WhatsApp)."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Reels: Topo de Funil (Atração)",
+    "descrição": "Conteúdo rápido e compartilhável para atrair novos seguidores.",
+    "Promt": "Atue como Estrategista Viral. Crie 3 ideias de Reels de 7 segundos com frases impactantes (POV) sobre [INSERIR TEMA]. Foco: Identificação imediata e compartilhamento. Inclua sugestão de áudio em alta."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Reels: Trend Adaptada",
+    "descrição": "Adapta uma tendência viral para o contexto do negócio.",
+    "Promt": "Atue como Criador de Conteúdo. Pegue a trend/áudio [INSERIR NOME DA TREND OU DESCRIÇÃO] e adapte para o nicho de [NICHO]. Descreva: 1) A cena visual, 2) O texto na tela (timing), 3) A legenda com CTA."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Reels: Tutorial Rápido (Hacks)",
+    "descrição": "Ensina um truque rápido para gerar valor imediato.",
+    "Promt": "Atue como Educador. Roteirize um Reel de 30s ensinando 'Um hack desconhecido para [RESULTADO]'. Estrutura: 1) Gancho 'Você está fazendo errado', 2) Demonstração do erro, 3) O jeito certo (hack), 4) CTA 'Siga para mais dicas'."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Relatório Semanal para Cliente",
+    "descrição": "Gera um texto de acompanhamento para enviar ao cliente via WhatsApp ou E-mail, resumindo os resultados da semana de forma valorizada.",
+    "Promt": "Escreva uma mensagem de atualização semanal para enviar ao meu cliente de Social Media. Os destaques da semana foram: [INSERIR DESTAQUES, ex: Reels viralizou, ganho de 50 seguidores, aumento de engajamento]. O tom deve ser profissional e proativo. Reforce que a estratégia está funcionando e mencione brevemente o foco para a próxima semana."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Resposta a Pedido de Refação (Escopo)",
+    "descrição": "Nega refações infinitas sem perder o cliente.",
+    "Promt": "Atue como Negociador. O cliente pediu a 5ª alteração na arte, mas o contrato prevê apenas 2 rodadas. Escreva um e-mail explicando que essa alteração será cobrada como hora extra ou descontada do banco de horas. Seja firme sobre o escopo, mas solícito para resolver."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Respostas Rápidas para Fãs (Tom de Voz)",
+    "descrição": "Definir um guia de respostas padronizadas que mantenham o tom de voz da marca para interações positivas e dúvidas frequentes.",
+    "Promt": "Atue como um Gerente de Comunidade especializado em Tom de Voz. Desenvolva 5 modelos de respostas para interações comuns nas redes sociais (ex: elogio, crítica construtiva, dúvida sobre preço, solicitação de DM, menção de parceiro). O Tom de Voz da marca é [Descrever Tom: ex. Amigável e Profissional/Jovem e Irônico]. Garanta que cada resposta seja concisa e reflita a personalidade da marca."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Reunião de Kick-off Interna (Preparação de Projeto)",
+    "descrição": "Roteiro para a reunião interna inicial de um projeto (Kick-off), assegurando que todos os membros entendam o objetivo e suas responsabilidades.",
+    "Promt": "Atue como um Facilitador de Reuniões. Desenvolva a pauta detalhada para uma Reunião de Kick-off Interna de um novo projeto (ex: Lançamento de Website). A reunião deve ter duração máxima de 60 minutos. A pauta deve incluir a ordem dos tópicos, o tempo dedicado a cada tópico (Timeboxing) e o responsável por apresentar (Ex: Gerente, Estrategista, Líder Técnico). Tópicos obrigatórios: Visão Geral do Cliente, Escopo e Limitações, Definição de Papéis (RACI), Cronograma de Marcos Chave e Perguntas/Respostas."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Reunião Trimestral de Resultados (QBR)",
+    "descrição": "Reunião estratégica para renovar a confiança.",
+    "Promt": "Atue como Diretor de Estratégia. Crie a agenda para uma QBR (Quarterly Business Review) com o cliente. Foco: Olhar o trimestre que passou e planejar o próximo. 1) Visão Macro dos 3 meses, 2) ROI acumulado, 3) Novas oportunidades de mercado identificadas, 4) Ajuste de Metas para o próximo Q."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Reutilização de Conteúdo (Transpurposing)",
+    "descrição": "Transforma vídeos em textos (e vice-versa).",
+    "Promt": "Atue como Repurposing Specialist. Tenho um vídeo de YouTube sobre [TEMA] com o seguinte roteiro: [INSERIR RESUMO]. Descreva como transformar esse vídeo em: 1) Um post de blog, 2) Um e-mail para a lista, 3) 3 posts de LinkedIn. Adapte a linguagem para cada canal."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Roadmap de Projeto (Cronograma Visual)",
+    "descrição": "Mostra ao cliente as etapas de longo prazo.",
+    "Promt": "Atue como Gerente de Projetos. Descreva como apresentar um Roadmap de 3 meses para um cliente de Inbound Marketing. Mês 1: Estruturação e Setup. Mês 2: Produção de Conteúdo e Primeiras Campanhas. Mês 3: Otimização e Escala. Liste os entregáveis principais de cada mês."
+  },
+  {
+    "nome": "Roteiro de Infográfico (Dados)",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Transforma dados estatísticos ou listas complexas em uma estrutura de infográfico visualmente interessante.",
+    "Promt": "Tenho estes dados/estatísticas: [INSERIR DADOS]. Me ajude a estruturar isso em um Infográfico vertical para o Pinterest/Instagram. Sugira como dividir os dados em seções, quais ícones usar para representar cada número e qual a hierarquia das informações para facilitar a leitura rápida."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Roteiro de Micro-Script para Venda Direta (Reels)",
+    "descrição": "Criar um script ultraconciso de 15 segundos para venda direta em formato de Reels, utilizando a técnica 'Hook-Value-CTA'.",
+    "Promt": "Atue como um Roteirista de Performance para Reels. Crie um script de 15 segundos (3-5 frases) para vender o produto/serviço [Nome do Produto/Serviço] focado no benefício [Principal Benefício]. Utilize o formato: (0-3s) Gancho (Hook) que prenda a atenção e cite a dor, (4-12s) Valor (Proposta de Solução/Benefício Único) e (13-15s) Chamada para Ação (CTA) clara e urgente."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Roteiro de Stories para Vendas (Sequência)",
+    "descrição": "Estrutura uma sequência lógica de 5 a 10 stories para conduzir o seguidor desde o engajamento até o clique no link de compra.\nUtiliza técnicas de storytelling e enquetes para aquecer a audiência antes da oferta.",
+    "Promt": "Crie uma sequência estratégica de 6 Stories para vender [INSERIR OFERTA] hoje. Estrutura: Story 1: Contexto/Situação do dia a dia. Story 2: Enquete de qualificação (Sim/Não). Story 3: Agitação da dor/problema. Story 4: Apresentação da solução (O Produto). Story 5: Prova Social (Depoimento ou Resultado). Story 6: CTA com Link. Escreva o texto que deve ir na tela e o que deve ser falado."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Roteiro de Stories: Bom Dia Estratégico",
+    "descrição": "Sequência matinal para aumentar retenção e preparar para oferta.",
+    "Promt": "Atue como Roteirista. Crie uma sequência de 5 stories de 'Bom Dia' que não seja entediante. 1) Foto de rotina com enquete banal (para aquecer o algoritmo), 2) Insight do dia relacionado ao nicho, 3) Conexão com dor do cliente, 4) CTA leve para responder direct."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Roteiro de Stories: Quebra de Objeção",
+    "descrição": "Usa stories para eliminar motivos de não compra.",
+    "Promt": "Atue como Copywriter. Crie um roteiro de 6 stories focado em quebrar a objeção '[INSERIR OBJEÇÃO]'. Use a estrutura: Contexto -> História de cliente que tinha essa dúvida -> Resultado após comprar -> Oferta."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Roteiro de Tráfego: Estrutura AIDA",
+    "descrição": "Cria roteiros para vídeos de anúncios focados em conversão, utilizando a clássica metodologia AIDA (Atenção, Interesse, Desejo, Ação).\nPerfeito para anúncios de topo e meio de funil que precisam prender a atenção nos primeiros segundos.",
+    "Promt": "Você é um Copywriter especialista em Tráfego Pago. Escreva um roteiro de vídeo de 45 segundos para vender [INSERIR PRODUTO/SERVIÇO]. Use estritamente a estrutura AIDA: 1) Atenção: Gancho visual ou verbal nos primeiros 3 segundos. 2) Interesse: Apresente o problema ou curiosidade. 3) Desejo: Mostre a solução e benefícios do produto. 4) Ação: Chamada para ação clara (CTA). Inclua sugestões de cenas visuais para cada etapa."
+  },
+  {
+    "nome": "Roteiro de Vídeo Curto (Reels/TikTok) para Vender sem Ser Chato",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Transforma um produto ou serviço em um roteiro dinâmico e leve para vídeos curtos.",
+    "Promt": "Quero criar um vídeo curto (até 60 segundos) para [REELS/TIKTOK/YOUTUBE SHORTS].\nO produto/serviço é [DESCREVER DETALHADAMENTE].\nMeu público é [DESCREVER PERSONA] e quero vender sem parecer um anúncio chato.\nMonte um roteiro com: gancho inicial forte (primeiros 3 segundos), apresentação rápida, demonstração do problema, solução com o produto, prova/benefício e CTA final.\nSugira frases prontas para cada etapa do roteiro e indique em que momentos posso usar legenda destacada na tela.\nInclua ideias de enquadramento/filmagem simples (ex: selfie, mostrando tela, mostrando produto, antes/depois).\nDê também 3 variações de ganchos de abertura para testar qual performa melhor.\nFinalize com uma sugestão de legenda curta e CTA para comentários, direct ou link na bio."
+  },
+  {
+    "categoria_ref": "Social Media & Comunidade",
+    "nome": "Roteiro de Vídeo de Vendas (Feed)",
+    "descrição": "Vídeo direto de oferta para rodar no feed.",
+    "Promt": "Atue como Copywriter de Resposta Direta. Roteirize um vídeo de 1 minuto apresentando a oferta [OFERTA]. Estrutura: 1) Qualificação (Pra quem é), 2) A promessa, 3) Os entregáveis (o que leva), 4) O preço/âncora, 5) Garantia e CTA."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Roteiro de Vídeo para YouTube (SEO Focado)",
+    "descrição": "Criar um roteiro otimizado para YouTube, focado em retenção do público e uso estratégico de palavras-chave.",
+    "Promt": "Atue como um Estrategista de SEO para Vídeo. Crie o roteiro detalhado para um vídeo do YouTube de 8 minutos sobre [Tema do Vídeo: ex. 'O melhor software de edição de vídeo em 2024']. O roteiro deve incluir: (1) Título Otimizado, (2) Gancho de 30 segundos (retentor), (3) Distribuição de palavras-chave [Palavra-Chave Principal] na introdução e ao longo do corpo, (4) Momentos de Chamada para Ação (CTA) e (5) Ideias de tags relevantes."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Roteiro de Webinar de Vendas",
+    "descrição": "Aula ao vivo projetada para vender high-ticket.",
+    "Promt": "Atue como Webinar Expert. Crie o outline para uma aula ao vivo de 45 minutos. Intro: Promessa e 'Pra quem é'. Conteúdo: 3 Segredos (que quebram crenças limitantes, não ensinam técnica maçante). Transição: 'Posso te ajudar a implementar isso?'. Pitch: Oferta do Mentoria/Curso [NOME]."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Roteiro para YouTube Ads (Pre-roll)",
+    "descrição": "Script para aqueles anúncios puláveis antes dos vídeos.",
+    "Promt": "Atue como Roteirista de YouTube. Escreva um script de 45 segundos para um anúncio TrueView. Estrutura: 0-5s (Qualificação: 'Se você é X...'), 5-15s (Problema), 15-35s (Apresentação da Solução), 35-45s (CTA para clicar no botão)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Schema Markup de FAQ",
+    "descrição": "Estrutura perguntas para ganhar espaço na SERP.",
+    "Promt": "Atue como Técnico de SEO. Elabore 4 perguntas e respostas frequentes sobre [TEMA] para serem usadas em uma marcação de dados estruturados (Schema FAQ). As respostas devem ser curtas, úteis e conter links para outras partes do meu site."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Script de Daily Scrum (Reunião Diária)",
+    "descrição": "Alinhamento rápido de 15 minutos com a equipe.",
+    "Promt": "Atue como Scrum Master. Crie um roteiro para conduzir uma Daily com o time de marketing. Liste as 3 perguntas que cada membro deve responder (O que fiz ontem? O que farei hoje? Tenho algum impedimento?) e defina regras para não estourar o tempo."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Script de Downsell (Recuperação)",
+    "descrição": "Oferta mais barata para quem recusou a principal.",
+    "Promt": "Atue como Estrategista. O cliente disse 'não' para a oferta de R$ 1.000. Escreva um script/texto oferecendo uma versão 'Lite' ou um produto menor por R$ 297. Argumento: 'Entendo que agora não é o momento, mas não quero que você fique sem ajuda. Por isso liberei o acesso parcial...'."
+  },
+  {
+    "nome": "Script de Onboarding (Boas-vindas)",
+    "categoria_ref": "Gestão & Operações",
+    "descrição": "Mensagem estruturada para enviar assim que um novo cliente fecha contrato, alinhando expectativas e próximos passos.",
+    "Promt": "Fechei com um novo cliente de gestão de redes sociais. Escreva um e-mail de Onboarding (Boas-vindas). Deve conter: 1) Agradecimento pela confiança. 2) Link para o formulário de briefing (espaço reservado). 3) Explicação de que o prazo de criação começa após o briefing. 4) Canais oficiais de comunicação e horários de atendimento. Tom: Entusiasta e organizado."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script de Remarketing (Escassez)",
+    "descrição": "Cria um roteiro de vídeo focado em pessoas que visitaram a página de vendas mas não compraram, utilizando o gatilho da escassez ou última chance.",
+    "Promt": "Crie um roteiro de vídeo curto (30s) para uma campanha de Remarketing. O público-alvo são pessoas que visitaram a página do [NOME DO PRODUTO] mas não compraram. O tom deve ser de 'Última Chamada' ou 'Dúvida'. Pergunte por que a pessoa ainda não tomou a decisão, relembre a garantia de risco zero e ofereça um bônus ou lembre que a oferta vai encerrar. CTA agressivo."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Script de Reunião de Kick-off",
+    "descrição": "Roteiro para iniciar o projeto com o pé direito.",
+    "Promt": "Atue como Gerente de Projetos. Crie a pauta para uma reunião de Kick-off (Pontapé inicial) de 45 minutos com um novo cliente de [SERVIÇO]. Tópicos: 1) Apresentação do Time, 2) Revisão dos Objetivos e KPIs, 3) Aprovação do Cronograma, 4) Definição das Ferramentas de Comunicação, 5) Próximos Passos Imediatos."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Script de Upsell (Otimizador de Lucro)",
+    "descrição": "Vende algo a mais imediatamente após a compra.",
+    "Promt": "Atue como Estrategista de Funil. Escreva o roteiro de vídeo/texto para uma página de 'One Time Offer' (Upsell) que aparece logo após o cliente comprar [PRODUTO 1]. Ofereça [PRODUTO 2] com um desconto único, explicando por que eles funcionam melhor juntos (velocidade ou facilidade)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Script de Vendas (Social para WhatsApp)",
+    "descrição": "Um roteiro para converter um seguidor que chamou no Direct interessado em preço, levando-o para fechar a venda no WhatsApp.",
+    "Promt": "Um seguidor perguntou 'Qual o valor?' no Direct. Não quero passar o preço seco. Crie um script de 3 etapas para levar essa conversa para o WhatsApp ou fechar a venda. Etapa 1: Agradecer e fazer uma pergunta de qualificação (entender a necessidade). Etapa 2: Apresentar o valor agregado (não só o preço). Etapa 3: Passar o preço e fazer o CTA para o fechamento ou link de pagamento."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Script de Vendas pelo WhatsApp (1 a 1)",
+    "descrição": "Roteiro para equipe comercial fechar no chat.",
+    "Promt": "Atue como Treinador de Vendas. Crie um script de 4 etapas para vender [PRODUTO] no WhatsApp. 1) Acolhimento e entendimento da demanda, 2) Diagnóstico (fazer o cliente admitir a dor), 3) Apresentação da solução personalizada, 4) Fechamento com pergunta de dupla opção ('Prefere cartão ou pix?')."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script de Vídeo: Gancho de 3 Segundos",
+    "descrição": "Cria inícios de vídeo projetados para impedir o 'scroll' imediato.",
+    "Promt": "Atue como Copywriter de Ads. Escreva 5 opções de 'Ganchos' (os primeiros 3 segundos) para um vídeo de anúncio vendendo [INSERIR PRODUTO]. Use técnicas de quebra de padrão visual ou perguntas chocantes para prender a atenção do público [INSERIR PÚBLICO]."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script para Anúncio Nativo (UGC)",
+    "descrição": "Roteiro que parece conteúdo de usuário, não propaganda.",
+    "Promt": "Atue como Criador UGC. Escreva um roteiro para um anúncio estilo TikTok/Reels que pareça amador e genuíno. O criador deve testar o produto [PRODUTO] na câmera e reagir. Estrutura: Unboxing -> Teste rápido -> Reação surpresa -> Indicação de onde comprar."
+  },
+  {
+    "nome": "Script Tráfego: App/SaaS (Software)",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Demonstra a facilidade de uso de um aplicativo ou sistema para resolver um problema chato.",
+    "Promt": "Roteiro para vender assinatura do App [NOME]. Estrutura:\n\nTítulo: Produtividade e Facilidade.\nCena: Pessoa frustrada com método antigo vs. feliz com o App.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Cansado de perder horas fazendo [TAREFA] em planilhas?'.\n2. Rota/Benefício: Grave a tela mostrando como o app resolve isso em 1 clique.\n3. Solução/CTA: 'Teste grátis por 7 dias'.\n\nEdição sugerida: Tela dividida (Antigo vs Novo), clique de mouse sincronizado com a fala."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: B2B (Software de Gestão)",
+    "descrição": "Focado em donos de negócios que perdem tempo com burocracia.",
+    "Promt": "Roteiro para Software de Gestão/ERP. Estrutura:\n\nTítulo: Chega de Caos.\nCena: Empresário 'afogado' em papéis vs. Empresário digital.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Sua empresa cresceu, mas sua organização parou no tempo?'.\n2. Rota/Benefício: 'Automatize estoque e financeiro em um só lugar'.\n3. Solução/CTA: 'Fale com um consultor'.\n\nEdição sugerida: Efeito de papelada sumindo, tela limpa e futurista."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Captação de Alunos (Vestibular/Curso)",
+    "descrição": "Gera um roteiro focado em matrículas, destacando autoridade (Nota MEC) e infraestrutura.",
+    "Promt": "Crie um roteiro de anúncio de 45s para captar alunos para o curso de [NOME DO CURSO] da instituição [NOME]. Siga ESTRITAMENTE esta estrutura:\n\nTítulo: Curto, direto e provocativo.\nCena: Uma pessoa falando para a câmera, ritmo rápido.\n\nConteúdo:\n1. Problema/Gancho (3s): Toque na frustração de cursos ruins ou falta de emprego.\n2. Rota/Benefício: Apresente a instituição, destaque a Nota MEC, metodologia prática e empregabilidade.\n3. Solução/CTA: Chamada imperativa para inscrição no vestibular/bolsa.\n\nEdição sugerida: Trilha dinâmica, cortes secos, texto cinético destacando 'Nota Máxima'."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Convite para Evento Presencial",
+    "descrição": "Gera inscrições para eventos, workshops ou inaugurações.",
+    "Promt": "Roteiro para convidar para o evento [NOME DO EVENTO]. Estrutura:\n\nTítulo: Exclusividade e Data.\nCena: Organizador falando com energia no local do evento (ou fundo neutro).\n\nConteúdo:\n1. Problema/Gancho (3s): 'Reserve a data: [DATA]. Sua carreira vai mudar'.\n2. Rota/Benefício: O que vai acontecer no evento, networking e palestrantes confirmados.\n3. Solução/CTA: 'Garanta seu ingresso no 1º lote'.\n\nEdição sugerida: Flashs de eventos passados (multidão), data piscando na tela."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Delivery/Gastronomia",
+    "descrição": "Focado em despertar fome (food porn) e facilidade de pedir.",
+    "Promt": "Roteiro para Delivery de [TIPO DE COMIDA]. Estrutura:\n\nTítulo: Delicioso e visual.\nCena: Close-ups da comida e pessoa comendo com vontade.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Não sabe o que jantar hoje? Olha isso...'.\n2. Rota/Benefício: Imagens sensoriais da comida, destaque para a entrega rápida e cupom de primeira compra.\n3. Solução/CTA: 'Peça no link e ganhe a entrega'.\n\nEdição sugerida: Slow motion na comida (fumaça/queijo), música animada."
+  },
+  {
+    "nome": "Script Tráfego: E-commerce (Promoção/Flash)",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Roteiro rápido e visual para venda de produtos físicos com foco em desconto.",
+    "Promt": "Roteiro para Black Friday/Promoção de [PRODUTO FÍSICO]. Estrutura:\n\nTítulo: Urgente e numérico.\nCena: Influencer ou modelo mostrando o produto rapidamente.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Pare de pagar caro em [CATEGORIA]'.\n2. Rota/Benefício: Mostre o produto em uso, destaque durabilidade e o preço promocional.\n3. Solução/CTA: 'Compre com frete grátis no link'.\n\nEdição sugerida: Transições rápidas, preço gigante na tela, som de caixa registradora."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Estética/Beleza",
+    "descrição": "Foca na autoestima e no resultado visual do procedimento.",
+    "Promt": "Roteiro para clínica de estética vendendo [PROCEDIMENTO]. Estrutura:\n\nTítulo: Transformação Visual.\nCena: Profissional explicando ou cliente satisfeita.\n\nConteúdo:\n1. Problema/Gancho (3s): 'O que te incomoda quando você se olha no espelho?'.\n2. Rota/Benefício: Explique como o procedimento funciona sem dor e mostre resultados (dentro das regras).\n3. Solução/CTA: 'Agende sua avaliação gratuita'.\n\nEdição sugerida: Ambiente clean, luz suave, 'brilho' nos elementos visuais."
+  },
+  {
+    "nome": "Script Tráfego: Fitness/Academia",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Focado em dor (sedentarismo) e prazer (corpo/saúde).",
+    "Promt": "Roteiro para Academia ou Personal Trainer. Estrutura:\n\nTítulo: Projeto Verão/Saúde.\nCena: Treino intenso alternado com fala.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Prometeu começar segunda-feira e nada?'.\n2. Rota/Benefício: Mostre a estrutura da academia, o acompanhamento próximo e o plano mensal acessível.\n3. Solução/CTA: 'Ganhe isenção de matrícula hoje'.\n\nEdição sugerida: Batida da música sincronizada com os exercícios, suor, energia."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Imobiliário (Venda de Imóvel)",
+    "descrição": "Vende o sonho da casa própria ou investimento, focado na localização e parcelas.",
+    "Promt": "Roteiro para venda de apartamentos no empreendimento [NOME]. Estrutura:\n\nTítulo: Sonho e Localização.\nCena: Corretor no decorado ou drone view.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Imagine morar a 5 minutos do [PONTO DE REFERÊNCIA]'.\n2. Rota/Benefício: Mostre a piscina, o acabamento e fale da condição de pagamento facilitada.\n3. Solução/CTA: 'Simule seu financiamento agora'.\n\nEdição sugerida: Takes suaves de drone, texto elegante dourado, música inspiradora."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Infoproduto Financeiro",
+    "descrição": "Vende a ideia de liberdade financeira ou organização de dívidas.",
+    "Promt": "Roteiro para Curso de Investimentos/Finanças. Estrutura:\n\nTítulo: Liberdade ou Controle.\nCena: Pessoa tranquila tomando café ou mostrando gráfico.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Onde você quer estar daqui a 5 anos? No mesmo lugar?'.\n2. Rota/Benefício: 'Aprenda a fazer seu dinheiro trabalhar por você com meu método de 3 passos'.\n3. Solução/CTA: 'Assista à Masterclass gratuita'.\n\nEdição sugerida: Gráficos subindo (verde), som de caixa registradora sutil."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Isca Digital (Ebook/Aula)",
+    "descrição": "Vende o download gratuito de um material rico em troca do lead.",
+    "Promt": "Roteiro para baixar o Ebook [TEMA]. Estrutura:\n\nTítulo: Curiosidade sobre o tema.\nCena: Pessoa segurando um tablet ou celular mostrando o ebook.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Você ainda comete esse erro no seu [TRABALHO/VIDA]?'.\n2. Rota/Benefício: 'Compilei anos de experiência neste guia gratuito que te ensina...'.\n3. Solução/CTA: 'Baixe grátis agora'.\n\nEdição sugerida: Mostra o 'scrolling' do ebook por dentro, seta apontando para baixo."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Lançamento (Faltam 24h)",
+    "descrição": "Gera urgência extrema para o fim de um período de inscrições.",
+    "Promt": "Roteiro de Última Chance para [PRODUTO]. Estrutura:\n\nTítulo: Contagem Regressiva.\nCena: Pessoa andando rápido ou relógio ao fundo.\n\nConteúdo:\n1. Problema/Gancho (3s): 'É sério, você vai ficar de fora?'.\n2. Rota/Benefício: 'As portas fecham em 24 horas e você vai perder o bônus [NOME DO BÔNUS]'.\n3. Solução/CTA: 'Garanta sua vaga antes que acabe'.\n\nEdição sugerida: Cronômetro na tela, cor vermelha predominante, som de sirene baixo."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Lista VIP (WhatsApp)",
+    "descrição": "Leva as pessoas para um grupo de WhatsApp para receber uma oferta exclusiva.",
+    "Promt": "Roteiro para encher Grupo VIP de Oferta. Estrutura:\n\nTítulo: Acesso Exclusivo.\nCena: Pessoa mostrando a tela do WhatsApp.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Quer comprar [PRODUTO] com condição de Black Friday fora de época?'.\n2. Rota/Benefício: 'Vou liberar um cupom insano só para quem estiver no Grupo VIP'.\n3. Solução/CTA: 'Entre no grupo silencioso agora'.\n\nEdição sugerida: Blur no fundo, foco no ícone do WhatsApp, notificação pop-up."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Moda/Varejo (Look do Dia)",
+    "descrição": "Visual e rápido, focado na versatilidade das peças.",
+    "Promt": "Roteiro para Loja de Roupas [ESTILO]. Estrutura:\n\nTítulo: Estilo e Praticidade.\nCena: Transição mágica de looks (estalar de dedos).\n\nConteúdo:\n1. Problema/Gancho (3s): '3 looks com uma única peça. Duvida?'.\n2. Rota/Benefício: Mostre a peça sendo usada no trabalho, no happy hour e no final de semana.\n3. Solução/CTA: 'Veja a nova coleção no site'.\n\nEdição sugerida: Transições invisíveis, nomes dos looks na tela."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: O 'Mito' do Nicho",
+    "descrição": "Descontrói uma mentira que o mercado conta para vender a sua verdade.",
+    "Promt": "Roteiro polêmico sobre [MITO DO MERCADO]. Estrutura:\n\nTítulo: A Verdade Nua e Crua.\nCena: Close no rosto, expressão de segredo.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Te enganaram a vida toda sobre [ASSUNTO]'.\n2. Rota/Benefício: Revele por que o método tradicional falha e apresente sua metodologia validada.\n3. Solução/CTA: 'Descubra o jeito certo na aula grátis'.\n\nEdição sugerida: Efeito de 'Glitch' (erro) quando falar do mito, som de 'alerta'."
+  },
+  {
+    "nome": "Script Tráfego: Prova Social (Depoimentos)",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Usa a voz de outros clientes para vender.",
+    "Promt": "Roteiro baseado em 'O que dizem sobre nós'. Estrutura:\n\nTítulo: 'Não acredite em mim'.\nCena: Montagem rápida de 3 pessoas diferentes falando bem.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Eles duvidaram que funcionava, até tentarem'.\n2. Rota/Benefício: Trechos curtos dos melhores depoimentos focados em resultados rápidos.\n3. Solução/CTA: 'Junte-se a mais de X alunos'.\n\nEdição sugerida: Legendas coloridas dinâmicas, estrelas de avaliação (5 estrelas) na tela."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Quebra de Objeção (Preço)",
+    "descrição": "Argumenta que o produto não é caro, mas sim um investimento que se paga.",
+    "Promt": "Roteiro focado em quem acha o produto [NOME] caro. Estrutura:\n\nTítulo: Reenquadramento de Valor.\nCena: Pessoa séria fazendo contas ou comparativo.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Você acha caro investir [VALOR] em você?'.\n2. Rota/Benefício: Compare o preço com gastos fúteis (pizza/café) e mostre o retorno que o produto traz.\n3. Solução/CTA: 'Invista em você agora'.\n\nEdição sugerida: Gráficos de barra comparativos, som de moeda caindo."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Remarketing (O 'Esquecido')",
+    "descrição": "Focado em recuperar quem visitou a página mas não comprou, usando urgência leve.",
+    "Promt": "Crie um roteiro de Remarketing para o produto [PRODUTO]. Estrutura:\n\nTítulo: 'Você esqueceu isso?'.\nCena: Pessoa segurando o celular, tom de dúvida.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Vi que você quase finalizou sua inscrição, o que houve?'.\n2. Rota/Benefício: Relembre a garantia de risco zero e o bônus exclusivo.\n3. Solução/CTA: 'Clique agora antes que a oferta encerre'.\n\nEdição sugerida: Ícone de notificação na tela, trilha de 'tic-tac' (relógio)."
+  },
+  {
+    "nome": "Script Tráfego: Storytelling do Fundador",
+    "categoria_ref": "Tráfego & Anúncios",
+    "descrição": "Conecta pela história de origem da marca.",
+    "Promt": "Roteiro Institucional/Venda focado na História. Estrutura:\n\nTítulo: A Origem.\nCena: Fundador falando com sinceridade.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Eu quase quebrei em 2020. Foi isso que me salvou'.\n2. Rota/Benefício: Conte a virada de chave que gerou o Método/Produto atual.\n3. Solução/CTA: 'Aprenda como eu fiz no link'.\n\nEdição sugerida: Fotos antigas em preto e branco, transição para colorido atual."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Script Tráfego: Venda de Serviço (B2B/Consultoria)",
+    "descrição": "Roteiro para vender serviços para empresas, focando na dor da falta de resultados ou processos ruins.",
+    "Promt": "Escreva um roteiro de anúncio para vender [SERVIÇO, ex: Consultoria Financeira] para donos de empresas. Estrutura:\n\nTítulo: Provocativo sobre perda de dinheiro.\nCena: Especialista falando firme.\n\nConteúdo:\n1. Problema/Gancho (3s): 'Sua empresa está sangrando dinheiro e você não vê'.\n2. Rota/Benefício: Apresente o método exclusivo e como ele organiza a casa em X dias.\n3. Solução/CTA: 'Agende um diagnóstico gratuito'.\n\nEdição sugerida: Zooms dramáticos no gancho, prints de resultados na tela."
+  },
+  {
+    "categoria_ref": "Tráfego & Anúncios",
+    "nome": "Segmentação de Públicos (Interesses)",
+    "descrição": "Descobre interesses laterais para testar no Facebook Ads.",
+    "Promt": "Atue como Especialista em Meta Ads. Liste 20 interesses direcionáveis no Facebook Ads para vender [PRODUTO] para o público [PÚBLICO]. Não use apenas os óbvios; sugira marcas que eles consomem, softwares que usam, autores que leem ou hobbies relacionados."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "SEO Local (Google Meu Negócio)",
+    "descrição": "Otimização para ser achado na cidade/bairro.",
+    "Promt": "Atue como Especialista em SEO Local. Escreva 3 opções de posts de atualização para o Perfil da Empresa no Google (antigo GMB) para uma [TIPO DE EMPRESA]. Os posts devem focar em eventos locais, ofertas da semana ou novidades no estoque. Inclua CTA de 'Ligar agora' ou 'Rotas'."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Sequência de E-mail de Boas-Vindas",
+    "descrição": "Nutre novos leads e prepara para a primeira venda.",
+    "Promt": "Atue como Especialista em E-mail Marketing. Escreva o outline de 3 e-mails para quem acabou de baixar [ISCA DIGITAL]. Dia 1: Entrega e Autoridade. Dia 2: História de vulnerabilidade conectada à dor do cliente. Dia 3: Primeira oferta soft-sell (venda suave)."
+  },
+  {
+    "nome": "Sequência de E-mails de Nutrição (Funil Simples)",
+    "categoria_ref": "Conteúdo & Copywriting",
+    "descrição": "Cria uma sequência de e-mails para nutrir leads e levá-los até a oferta.",
+    "Promt": "Quero criar uma sequência de e-mails para nutrir leads que se cadastraram para [INSERIR ISCA DIGITAL/EVENTO].\nMeu produto/serviço que será ofertado depois é [DESCREVER].\nMeu público-alvo é [DESCREVER PERSONA E PRINCIPAL DOR].\nMonte uma sequência com, pelo menos, 5 e-mails: boas-vindas, construção de autoridade, educação, quebra de objeções e oferta.\nPara cada e-mail, traga: assunto sugerido, estrutura do corpo do e-mail (introdução, desenvolvimento, CTA) e tom de voz recomendado.\nInclua gatilhos mentais adequados (autoridade, prova, urgência, pertencimento etc.) sem soar apelativo demais.\nExplique brevemente qual é o papel de cada e-mail dentro do funil.\nAo final, sugira em quantos dias essa sequência deve ser distribuída para manter o lead aquecido."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Set de Ícones Personalizados",
+    "descrição": "Define o estilo da iconografia da marca.",
+    "Promt": "Atue como Icon Designer. Defina o estilo dos ícones para a interface de um app/site de [TEMA]. Eles devem ser: Outline (apenas contorno) ou Solid (preenchidos)? Cantos arredondados ou retos? Espessura da linha fina ou grossa? Coloridos ou monocromáticos?"
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Setup de Ferramenta (Trello/ClickUp)",
+    "descrição": "Organização visual das colunas de trabalho.",
+    "Promt": "Atue como Especialista em Produtividade. Descreva as colunas ideais para um quadro Kanban de gestão de conteúdo de redes sociais. Sugestão: 'Pautas/Ideias', 'Briefing/Copy', 'Design/Produção', 'Aprovação Cliente', 'Agendado' e 'Publicado'."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Solicitação de Aumento de Budget",
+    "descrição": "Pedir mais verba para o cliente investir em mídia.",
+    "Promt": "Atue como Gestor de Mídia. Os resultados dos anúncios estão ótimos, mas o orçamento limitou a escala. Escreva um e-mail para o cliente sugerindo um aumento de 30% na verba. Apresente a projeção de resultado extra que esse investimento trará (ROI)."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Storytelling de Transformação (Copy)",
+    "descrição": "Estruturar uma peça de copy focada na jornada do herói (cliente), transformando-o de um estado 'Problema' para um estado 'Solução'.",
+    "Promt": "Atue como um Mestre em Storytelling Persuasivo. Desenvolva a copy de um post longo (para blog ou LinkedIn) utilizando a estrutura de 'Jornada de Transformação' para o público [Definição do Público]. O Produto/Serviço é [Produto/Serviço]. A copy deve conter: (1) O Mundo Antigo (A Dor), (2) O Ponto de Virada (A Descoberta da Solução), (3) A Batalha (Aplicação e Desafios) e (4) O Novo Mundo (A Transformação/CTA). A copy deve ter um tom inspirador e ser focada na identificação."
+  },
+  {
+    "nome": "Tendência: Brutalismo no Design",
+    "categoria_ref": "Design & Criativos",
+    "descrição": "Como aplicar a estética 'feia' e ousada que está na moda.",
+    "Promt": "O estilo 'Brutalismo' ou 'Anti-Design' está em alta. Quais são as características visuais desse estilo para Social Media? (Ex: Fontes padrão esticadas, cores neon com fundo preto, elementos sobrepostos sem cuidado, estética Windows 95). Como aplicar isso sem parecer amadorismo?"
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Teoria das Cores: Contraste para Leitura",
+    "descrição": "Como garantir que o texto seja legível em qualquer fundo.",
+    "Promt": "Vou colocar texto sobre uma imagem. Me explique a regra de contraste e acessibilidade. Quando devo usar sombra projetada, tarja (box) atrás do texto ou escurecer a foto inteira? Dê exemplos de combinações de cor de texto vs. fundo que NUNCA devo usar (ex: Vermelho com Verde)."
+  },
+  {
+    "categoria_ref": "Gestão & Operações",
+    "nome": "Tradutor de 'Clientês' para Técnico",
+    "descrição": "Transforma um pedido confuso de um cliente em um briefing técnico claro para a equipe executar.",
+    "Promt": "O cliente pediu o seguinte de forma confusa: '[COLAR PEDIDO DO CLIENTE]'. Traduza isso para uma linguagem técnica de design e marketing. O que exatamente ele quer? Qual o formato? Qual o objetivo? Resuma em tópicos claros para eu passar para o designer/editor."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Transformador de Características em Benefícios",
+    "descrição": "Ferramenta essencial para copy de vendas. Pega as características técnicas de um produto e as traduz em benefícios emocionais tangíveis.\nAjuda a tornar a comunicação mais persuasiva e menos técnica.",
+    "Promt": "Atue como um Copywriter de Vendas. Eu vou te dar uma lista de características técnicas do meu produto: [INSERIR CARACTERÍSTICAS]. Sua tarefa é transformar cada característica em um 'Benefício Emocional' ou 'Benefício Prático' para o cliente. Use a estrutura 'Isso significa que você vai...' para explicar o valor real."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Transformação de Características em Benefícios",
+    "descrição": "Traduz dados técnicos em desejos emocionais.",
+    "Promt": "Atue como Redator Publicitário. Tenho estas 5 características técnicas do meu produto: [LISTAR CARACTERÍSTICAS]. Reescreva cada uma transformando em um Benefício Funcional ('para que serve') e um Benefício Emocional ('como você se sente'). Use a estrutura: 'Isso significa que...'."
+  },
+  {
+    "categoria_ref": "Design & Criativos",
+    "nome": "Tratamento de Imagem (Retoque)",
+    "descrição": "Instruções para padronizar fotos.",
+    "Promt": "Atue como Editor de Fotos. Crie um guia de tratamento de imagem para as fotos da marca [MARCA]. O estilo deve ser [ESTILO: ex: Moody/Dark]. Instruções: Baixar a saturação em -10%, aumentar claridade, puxar as sombras para o azul, aumentar nitidez. Crie um 'preset' escrito."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "URL Amigável (Slug)",
+    "descrição": "Endereços limpos que ajudam no ranqueamento.",
+    "Promt": "Atue como Webmaster. Transforme os seguintes títulos de artigos em URLs amigáveis (Slugs) otimizadas para SEO (curtas, com hífens, sem stop-words como 'de', 'para', 'com'). Título: '10 Dicas incríveis de como fazer um bolo de cenoura perfeito'. Título 2: 'Por que minha internet está caindo toda hora?'."
+  },
+  {
+    "categoria_ref": "Conteúdo & Copywriting",
+    "nome": "Variações de CTA (Chamada para Ação)",
+    "descrição": "Botões que dão vontade de clicar.",
+    "Promt": "Atue como UX Writer. Crie 10 variações de texto para o botão de compra de [PRODUTO]. Evite 'Comprar Agora'. Use frases em primeira pessoa focadas no benefício imediato. Ex: 'Sim, eu quero emagrecer', 'Quero garantir minha vaga', 'Acessar o método agora'."
+  }
+]
