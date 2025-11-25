@@ -45,40 +45,14 @@ O sistema carrega dinamicamente (`data.json`) uma biblioteca vasta de conhecimen
 
 O projeto foi construído com foco em **performance** e **código limpo**, sem dependência de frameworks pesados.
 
-* **HTML5 Semântico**
-* **CSS3 Moderno:** Uso extensivo de *CSS Variables*, *Flexbox*, *Grid Layout* e animações (`keyframes`).
-* **JavaScript (Vanilla):** Manipulação de DOM pura, `Async/Await` para consumo de dados JSON e `LocalStorage`.
-* **Font Awesome:** Ícones vetoriais.
-* **Google Fonts:** Tipografia (Outfit & Montserrat).
-
----
-
-## Como rodar localmente
-
-Este é um projeto estático, o que o torna extremamente leve e fácil de rodar.
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/edersonjesus4/social-os.git](https://github.com/edersonjesus4/social-os.git)
-
-2. **Acesse a pasta:**
-   ```bash
-    cd social-os
-3. **Abra o projeto:**
-   - Você pode simplesmente abrir o arquivo index.html no seu navegador.
-   - Ou usar uma extensão como Live Server no VS Code para simular um servidor local.
+* **HTML5**
+* **CSS3**
+* **JavaScript:**
+* **Google Fonts:**
 
 ## Contribuindo
 
 A força do **Social OS** está na comunidade. Se você tem um prompt "secreto" que otimiza seu dia e quer compartilhar com outros profissionais:
-
-1. Faça um **Fork** deste projeto.
-2. Abra o arquivo `data.json` e adicione seu prompt seguindo a estrutura dos demais.
-3. Envie um **Pull Request**.
-
-Toda contribuição é bem-vinda para tornar esta a maior base de inteligência para marketing do Brasil.
-
----
 
 ## Sobre o Autor
 
